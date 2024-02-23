@@ -1,0 +1,97 @@
+.shape1 {
+    position: absolute;
+    top: 29%;
+    left: 0%;
+    transform: translate(-50%, -50%);
+    animation: rotation 10s infinite linear;
+}
+
+.shape2 {
+    position: absolute;
+    top: 30%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+    animation: rotation 10s infinite linear;
+}
+
+.shape3 {
+    position: absolute;
+    top: 60%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+    animation: rotation 10s infinite linear;
+}
+
+.shape4 {
+    position: absolute;
+    top: 60%;
+    left: 0%;
+    transform: translate(-50%, -50%);
+    animation: rotation 10s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    to {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+
+.p-tracks {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 10px;
+    width: 50%;
+}
+
+.p-text {
+    font-size: 20px;
+    color: #434343;
+    padding: 10px;
+    color: #725500;
+}
+.shape1, .shape2, .shape3, .shape4 {
+    width: 40vw;
+    height: auto;
+}
+.About {
+    position: relative;
+    overflow: hidden;
+}
+
+.p-text:last-child {
+    border-bottom: none;
+}
+
+.p-text:hover {
+    color: #F5B700;
+    font-size: 25px;
+    transition: all 0.3s ease;
+}
+
+.date-box {
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 0px #898989;
+    border:none;
+    font-size: 15px;
+    text-align: center;
+    width: 50%;
+    font-weight: bold;
+
+}
+
+.date-box:hover {
+    width: 55%;
+    font-weight: bold;
+    color: #F5B700;
+    box-shadow: 0px 0px 10px 0px #F5B700;
+    transition: all .5s ease;
+}

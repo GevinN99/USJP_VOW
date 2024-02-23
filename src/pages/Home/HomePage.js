@@ -1,48 +1,119 @@
-import React, { useState, useEffect } from 'react';
-import NavBar from '../../components/NavBar/NavBar';
-import Footer from '../../components/Footer/Footer';
-import About from '../../components/About/About';
-import { Container } from 'react-bootstrap';
-import { Animated } from 'react-animated-css';
-import '../../App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import {useCallback, useEffect, useState} from "react";
+import Particles from "react-tsparticles";
+import {loadSlim} from "tsparticles-slim";
+import NavBar from "../../components/NavBar/NavBar";
+import Footer from "../../components/Footer/Footer";
+import CountdownTimer from '../../components/CountdownTimer/CountdownTimer';
+import About from "../../components/About/About";
+import LOGO from "../../assets/images/about_logo.svg";
 
 export default function HomePage() {
-    const [showFirstHeading, setShowFirstHeading] = useState(true);
+    const [showFirstText, setShowFirstText] = useState(true);
 
     useEffect(() => {
-        const interval = setInterval(() => {
-            setShowFirstHeading(prevState => !prevState);
-        }, 4000);
+        const timer = setInterval(() => {
+            setShowFirstText(prevShowFirstText => !prevShowFirstText);
+        }, 5000);
+        return () => clearInterval(timer);
+    }, []);
 
-        return () => clearInterval(interval);
+    const particlesInit = useCallback(async engine => {
+        console.log(engine);
+        await loadSlim(engine);
+    }, []);
+
+    const particlesLoaded = useCallback(async container => {
+        await console.log(container);
     }, []);
 
     return (
         <>
-            <Container fluid className="p-0">
-                <div className="absolute overflow-hidden">
-                    <div className="absolute inset-0 justify-center mt-5">
-                        <div className="bg-shape1 bg-teal opacity-50 bg-blur mx-3 mt-5"></div>
-                        <div className="bg-shape2 bg-primary opacity-50 bg-blur mt-5"></div>
-                        <div className="bg-shape1 bg-purple opacity-50 bg-blur mt-5"></div>
-                    </div>
+            <div className="container-fluid position-relative p-0">
+                <NavBar className=" position"/>
+                <Particles id="tsparticles" init={particlesInit} loaded={particlesLoaded} options={{
+                    background: {
+                        color: {
+                            value: "#ffffff",
+                        },
+                    },
+                    fpsLimit: 120,
+                    interactivity: {
+                        events: {
+                            onClick: {
+                                enable: true,
+                                mode: "push",
+                            },
+                            onHover: {
+                                enable: true,
+                                mode: "repulse",
+                            },
+                            resize: true,
+                        },
+                        modes: {
+                            push: {
+                                quantity: 4,
+                            },
+                            repulse: {
+                                distance: 200,
+                                duration: 0.4,
+                            },
+                        },
+                    },
+                    particles: {
+                        color: {
+                            value: "#FFD700",
+                        },
+                        links: {
+                            color: "#ff0000",
+                            distance: 150,
+                            enable: true,
+                            opacity: 0.5,
+                            width: 1,
+                        },
+                        move: {
+                            direction: "none",
+                            enable: true,
+                            outModes: {
+                                default: "bounce",
+                            },
+                            random: false,
+                            speed: 6,
+                            straight: false,
+                        },
+                        number: {
+                            density: {
+                                enable: true,
+                                area: 800,
+                            },
+                            value: 80,
+                        },
+                        opacity: {
+                            value: 0.5,
+                        },
+                        shape: {
+                            type: "circle",
+                        },
+                        size: {
+                            value: {min: 1, max: 5},
+                        },
+                    },
+                    detectRetina: true,
+                }} style={{position: 'absolute', zIndex: 1}} className="particals-effect"/>
+                <div className="position-absolute top-50 start-50 translate-middle text-center">
+                    {showFirstText ? (
+                        <h1 className="fadeInOut misty-text sunShadow">2ND INTERNATIONAL CONFERENCE ON LIVING VALUES
+                            EDUCATION</h1>
+                    ) : (
+                        // <h1 className="fadeInOut misty-text sunShadow" style={{fontSize: 100}}>ICLVE 2024</h1>
+                        <img src={LOGO} alt="ICLVE 2024" className="fadeInOut" style={{width: 400}}/>
+                    )}
+                    <CountdownTimer date={new Date('2024-12-31T00:00:00')}/>
                 </div>
-            </Container>
-            <NavBar/>
-            <div className="text-center py-5 animation-container">
-                {showFirstHeading ? (
-                    <Animated animationIn="fadeIn" animationOut="fadeOut" animationInDuration={1000} animationOutDuration={2000} isVisible={true}>
-                        <h1 className=" misty-text ">2ND INTERNATIONAL CONFERENCE ON LIVING VALUES EDUCATION</h1>
-                    </Animated>
-                ) : (
-                    <Animated animationIn="fadeIn" animationOut="fadeOut" animationInDuration={1000} animationOutDuration={2000} isVisible={true}>
-                        <h1 className="misty-text" style={{fontSize:100}}>ICLVE 2024</h1>
-                    </Animated>
-                )}
+                <div className="position-absolute w-100 overflow-hidden">
+                    <About/>
+                    <Footer className="Footer"/>
+                </div>
             </div>
-            <About/>
-            <Footer/>
         </>
     );
 }
