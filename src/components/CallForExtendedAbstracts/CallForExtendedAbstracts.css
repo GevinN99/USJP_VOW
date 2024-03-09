@@ -1,0 +1,31 @@
+.CallForExtendedAbstracts {
+    font-family: Arial, sans-serif;
+}
+
+.section-title {
+    color: #E59700;
+    border-bottom: 2px solid #E59700;
+    padding-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #E59700;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 20px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #b17500;
+}

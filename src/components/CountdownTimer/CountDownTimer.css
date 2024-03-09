@@ -3,12 +3,12 @@ h2 {
     margin: 0;
 }
 
-p {
+.cdt-p {
     font-size: 1em;
     margin: 0;
 }
 
-h2, p {
+h2, .cdt-p {
     text-align: center;
     color: #4d4d4d;
 }
