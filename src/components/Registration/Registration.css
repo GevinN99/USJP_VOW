@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.registration-container {
+    background-color: #f8f9fa;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.registration-card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    animation: slideIn 1s ease-in-out;
+}
+
+@keyframes slideIn {
+    0% {transform: translateY(-50px); opacity: 0;}
+    100% {transform: translateY(0); opacity: 1;}
+}
+
+.registration-title {
+    color: #343a40;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.registration-info, .payment-methods p, .cancellation-policy p {
+    color: #6c757d;
+}
+
+.payment-methods, .registration-fees, .registration-includes, .cancellation-policy {
+    margin-bottom: 20px;
+}
+
+.payment-methods h2, .registration-fees h2, .registration-includes h2, .cancellation-policy h2 {
+    color: #343a40;
+    margin-bottom: 10px;
+}

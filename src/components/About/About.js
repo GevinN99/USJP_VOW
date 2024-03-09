@@ -7,11 +7,14 @@ import Shape3 from "../../assets/images/shape4.png";
 import Shape4 from "../../assets/images/shape3.png";
 
 import './About.css';
+import Committee from "./Committee";
+import NavBar from "../NavBar/NavBar";
+import Footer from "../Footer/Footer";
 
 export default function About () {
     return (
         <div className="About bg-white overflow-hidden w-100">
-            <div className="mt-5">
+            <div>
                 <img src={headerImg} className="w-100"/>
             </div>
             <img className="shape1" style={{width:300}} src={ShapeMY} alt="Shape1"/>
@@ -31,29 +34,48 @@ export default function About () {
                 <center className="position-relative mt-5">
 
                     <div className="row w-75 text-center">
-                        The International Conference in Living Values Education (ICLVE) is an initiative, launched by
-                        the
-                        Career Guidance Unit of the University of Sri Jayewardenepura.
+                        The International Conference on Living Values Education (ICLVE) stands as a pioneering
+                        initiative launched by the esteemed Career Guidance Unit of the University of Sri
+                        Jayewardenepura. Since its start in 2023, the conference has served as a beacon of
+                        enlightenment, drawing together a diverse array of educators, scholars, practitioners, and
+                        researchers from across the globe. With a steadfast commitment to advancing the understanding
+                        and application of values in education and professional development, the ICLVE has established
+                        itself as a premier platform for intellectual discourse, collaboration, and innovation.
                     </div>
                     <br/>
                     <div className="row w-75 text-center">
-                        Our journey began in 2023 with the vision of bringing educators, scholars, practitioners, and
-                        researchers under one platform to explore and discuss the integral role of values in shaping
-                        resilient and principled professionals.
+                        At its core, the ICLVE champions the transformative power of living values education—a
+                        philosophy that recognises the profound influence of values in shaping individual identity,
+                        guiding behaviour, and fostering holistic personal and professional development. By exploring
+                        the intersection of values, ethics, and career aspirations, the conference looks to empower
+                        participants to navigate the complex terrain of the modern workplace with integrity, purpose,
+                        and resilience.
                     </div>
                     <br/>
                     <div className="row w-75 text-center">
-                        Living values education serves as guiding principles for career development, helping individuals
-                        align their professional choices with personal beliefs and ethics. The ICLVE of 2024 is to be
-                        held
-                        under the theme of “Cultivating Living Values for Exquisite Professional Personality”, exploring
-                        deeper into the significance of values in fostering professional excellence and personal
-                        fulfillment
-                        with the collaborative efforts of the Faculty of Social Sciences & Humanities of the University
-                        of
-                        Sri Jayewardenepura and the Association of Living Values Education (ALIVE) in Hong Kong.
+                        The theme of the 2024 conference, "Cultivating Living Values for Exquisite Professional
+                        Personality," reflects a deep commitment to delving into the multifaceted dimensions of
+                        values-based education and its impact on the cultivation of exemplary professional character.
+                        Through a rich tapestry of keynote speeches, panel discussions, workshops, and interactive
+                        sessions, attendees will have the opportunity to engage with leading experts and thought leaders
+                        in the field, gaining invaluable insights, strategies, and best practices for integrating values
+                        into their educational pedagogy and career guidance initiatives.
                     </div>
-
+                    <div className="row w-75 text-center pt-3">
+                        Moreover, the collaborative efforts of the Faculty of Social Sciences and Humanities of the
+                        University of Sri Jayewardenepura and the esteemed Association of Living Values Education
+                        (ALIVE) in Hong Kong underscore the global significance and reach of the ICLVE. By fostering
+                        cross-cultural dialogue and knowledge exchange, the conference serves as a catalyst for positive
+                        change, inspiring participants to become catalysts for ethical leadership, social
+                        responsibility, and sustainable development in their respective communities and professions.
+                    </div>
+                    <div className="row w-75 text-center pt-3">
+                        As we embark on this transformative journey of discovery and enlightenment, the ICLVE invites
+                        you to join us in reimagining the future of education and professional development—one guided by
+                        the timeless principles of integrity, compassion, and excellence. Together, let us cultivate a
+                        world where living values serve as the cornerstone of individual flourishing and collective
+                        prosperity.
+                    </div>
                 </center>
             </div>
 
@@ -73,75 +95,93 @@ export default function About () {
             </div>
 
             <div className="mt-5">
-                <h3 id="ImportantDates" className="text-center text-uppercase">Important Dates</h3>
+                <h3 id="ImportantDates" className="text-center text-uppercase mb-4">Important Dates</h3>
                 <center>
                     <div className="row date-box ">
                         <div className="col ">
-                            <p>June 30, 2024</p>
+                            <p>27th February 2024</p>
                         </div>
                         <div className="col">
-                            <p>Calling for Abstract</p>
-                        </div>
-                    </div>
-
-                    <div className="row date-box">
-                        <div className="col">
-                            <p>June 30, 2024</p>
-                        </div>
-                        <div className="col">
-                            <p>Deadline of the Submission of the Abstract</p>
+                            <p>Calling for extended abstracts</p>
                         </div>
                     </div>
 
                     <div className="row date-box">
                         <div className="col">
-                            <p>June 30, 2024</p>
+                            <p>22nd of April 2024</p>
                         </div>
                         <div className="col">
-                            <p>The Review of Abstracts</p>
-                        </div>
-                    </div>
-
-                    <div className="row date-box">
-                        <div className="col">
-                            <p>June 30, 2024</p>
-                        </div>
-                        <div className="col">
-                            <p>Submission of Revised Abstracts</p>
+                            <p>Deadline of the Submission of the extended Abstract</p>
                         </div>
                     </div>
 
                     <div className="row date-box">
                         <div className="col">
-                            <p>June 30, 2024</p>
+                            <p>22nd May 2024</p>
                         </div>
                         <div className="col">
-                            <p>Notification of Acceptance of Abstracts</p>
-                        </div>
-                    </div>
-
-                    <div className="row date-box">
-                        <div className="col">
-                            <p>June 30, 2024</p>
-                        </div>
-                        <div className="col">
-                            <p>Registration for Abstract Presentation</p>
+                            <p>The Review of extended abstracts</p>
                         </div>
                     </div>
 
                     <div className="row date-box">
                         <div className="col">
-                            <p>June 30, 2024</p>
+                            <p>15th of June 2024</p>
                         </div>
                         <div className="col">
-                            <p>Conference Dates</p>
+                            <p>Submission of revised abstracts</p>
+                        </div>
+                    </div>
+
+                    <div className="row date-box">
+                        <div className="col">
+                            <p>30th of June 2024</p>
+                        </div>
+                        <div className="col">
+                            <p>Notification of acceptance of extended abstracts</p>
+                        </div>
+                    </div>
+
+                    <div className="row date-box">
+                        <div className="col">
+                            <p>15th of July 2024</p>
+                        </div>
+                        <div className="col">
+                            <p>Registration for abstract Presentation</p>
+                        </div>
+                    </div>
+
+                    <div className="row date-box">
+                        <div className="col">
+                            <p>26th August - 28th August 2024</p>
+                        </div>
+                        <div className="col">
+                            <p>Conference dates</p>
                         </div>
                     </div>
                 </center>
             </div>
 
-            <div id="ICLVECommittee" className="mt-5 text-center">
-                <h1>ICLVE Committee</h1>
+            <div className="text-center mt-5">
+                <h1>Conference Venue</h1>
+
+                <h4 className="mt-5">Free Conference :</h4>
+                <h2 className="v-text">26<sup>th</sup> August 2024</h2>
+                <h3 className="v-1-text">Sumangala building - University of Sri Jayewardenepura</h3>
+
+                <h4 className="mt-5">Main Conference :</h4>
+                <h2 className="v-text">27<sup>th</sup> August 2024</h2>
+                <h3 className="v-1-text">Galle Face Hotel, Sri Lanka</h3>
+
+                <h4 className="mt-5">Post Conference :</h4>
+                <h2 className="v-text">28<sup>th</sup> August 2024</h2>
+                <h3 className="v-1-text">Mithrigala Nissarana Vanaya, Mitirigala, Sri Lanka</h3>
+
+
+            </div>
+
+            <div id="committee">
+                <Committee/>
             </div>
 
             <div className="mt-5">

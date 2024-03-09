@@ -6,6 +6,8 @@ import Footer from "../../components/Footer/Footer";
 import CountdownTimer from '../../components/CountdownTimer/CountdownTimer';
 import About from "../../components/About/About";
 import LOGO from "../../assets/images/about_logo.svg";
+import abtBtm from "../../assets/images/NavBtm.svg";
+
 
 export default function HomePage() {
     const [showFirstText, setShowFirstText] = useState(true);
@@ -29,7 +31,6 @@ export default function HomePage() {
     return (
         <>
             <div className="container-fluid position-relative p-0">
-                <NavBar className=" position"/>
                 <Particles id="tsparticles" init={particlesInit} loaded={particlesLoaded} options={{
                     background: {
                         color: {
@@ -104,14 +105,13 @@ export default function HomePage() {
                         <h1 className="fadeInOut misty-text sunShadow">2ND INTERNATIONAL CONFERENCE ON LIVING VALUES
                             EDUCATION</h1>
                     ) : (
-                        // <h1 className="fadeInOut misty-text sunShadow" style={{fontSize: 100}}>ICLVE 2024</h1>
                         <img src={LOGO} alt="ICLVE 2024" className="fadeInOut" style={{width: 400}}/>
                     )}
-                    <CountdownTimer date={new Date('2024-12-31T00:00:00')}/>
+                    <CountdownTimer date={new Date('2024-08-26T09:00:00')}/>
                 </div>
-                <div className="position-absolute w-100 overflow-hidden">
+                <div className="position-absolute w-100 overflow-hidden mt-5">
+                    <img src={abtBtm} className="w-100 nav-h-img"/>
                     <About/>
-                    <Footer className="Footer"/>
                 </div>
             </div>
         </>
