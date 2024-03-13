@@ -69,9 +69,9 @@
 }
 
 .p-text:hover {
-    color: #F5B700;
-    font-size: 25px;
+    font-size: 23px;
     transition: all 0.3s ease;
+    color: #ffffff;
 }
 
 .date-box {

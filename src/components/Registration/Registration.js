@@ -2,25 +2,37 @@ import React from 'react';
 import {Container, Table} from 'react-bootstrap';
 import '../../App.css';
 import Footer from "../Footer/Footer";
+import RegBg from "../../assets/images/RegBg.png";
 
 export default function Registration() {
     return (
-        <Container className="mt-5 text-center">
-            <h1>Conference Registration</h1>
-            <p >All conference participants must pay the conference registration fee. For each extended abstract, at
-                least one author must attend and pay the registration fee. Delegates can choose any of the options given
-                below to participate at the Conference.</p>
+        <>
+            <Container className="mt-3 text-center">
 
-            <div className="text-center align-content-between justify-content-between">
-                <h2>Payment Methods</h2>
-                <span>Bank Transfer</span>
-                <span>Account Name:</span> <span>Values of the Wise Society</span>
-                <span>Bank:</span> <span>People's Bank</span>
-                <span>Branch:</span> <span>Gangodawila Branch</span>
-                <span>Account Number:</span> <span>097200180028108</span>
+                <img className="RegBg" style={{width: 300}} src={RegBg} alt="RegBg"/>
+                <h1 className="fadeInOut">Conference Registration</h1>
+                <p>All conference participants must pay the conference registration fee. For each extended abstract, at
+                    least one author must attend and pay the registration fee. Delegates can choose any of the options
+                    given
+                below to participate at the Conference.</p>
+                <div className="d-flex justify-content-center">
+                    <div className="card text-center mt-5 w-50">
+                        <div className="card-header">
+                            <h2>Payment Methods</h2>
+                        </div>
+                        <ul className="list-group list-group-flush">
+                            <li className="list-group-item"><strong>Method:</strong> Bank Transfer</li>
+                            <li className="list-group-item"><strong>Account Name:</strong> Values of the Wise Society
+                            </li>
+                            <li className="list-group-item"><strong>Bank:</strong> People's Bank</li>
+                            <li className="list-group-item"><strong>Branch:</strong> Gangodawila Branch</li>
+                            <li className="list-group-item"><strong>Account Number:</strong> 097200180028108</li>
+                        </ul>
+                    </div>
             </div>
 
-            <h2 className="mb-3">Registration Deadlines & Fees</h2>
+
+                <h2 className="mt-5 mb-3">Registration Deadlines & Fees</h2>
             <Table striped bordered hover>
                 <thead>
                 <tr>
@@ -34,18 +46,17 @@ export default function Registration() {
                 {/* Add rows here */}
                 </tbody>
             </Table>
-
-            <h2 className="mt-5">Conference Registration Fee Include</h2>
-                <div className="p-text">Admission to research sessions</div>
-                <div className="p-text">All conference materials</div>
-                <div className="p-text">Tea/coffee and lunch</div>
-                <div className="p-text">Certificate of Attendance</div>
-
-            <h2>Cancellation Policy</h2>
-            <p>The registration fees shall not be refundable in case of any cancellation or non-attendance due to any
+                <h2 className="mt-5 mb-3">Conference Registration Fee Include</h2>
+                <div className="reg-text">Admission to research sessions</div>
+                <div className="reg-text">All conference materials</div>
+                <div className="reg-text">Tea/coffee and lunch</div>
+                <div className="reg-text">Certificate of Attendance</div>
+                <h2 className="mt-5">Cancellation Policy</h2>
+                <p>The registration fees shall not be refundable in case of any cancellation or non-attendance due to
+                    any
                 form of personal faults.</p>
-
-            <Footer/>
         </Container>
+            <Footer/>
+        </>
     );
 }

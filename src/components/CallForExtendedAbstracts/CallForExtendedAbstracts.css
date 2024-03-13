@@ -8,16 +8,17 @@
     padding-bottom: 10px;
 }
 
-ul {
-    list-style-type: none;
-    padding: 0;
+.p-tracks {
+    margin: 0 auto;
+    max-width: 600px;
 }
 
-ul li {
+.p-text {
     background-color: #E59700;
     margin: 5px 0;
     padding: 10px;
     border-radius: 5px;
+    color: white;
 }
 
 button {

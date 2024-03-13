@@ -10,14 +10,25 @@ import './About.css';
 import Committee from "./Committee";
 import NavBar from "../NavBar/NavBar";
 import Footer from "../Footer/Footer";
+import React from "react";
+import {Container} from "react-bootstrap";
 
 export default function About () {
     return (
         <div className="About bg-white overflow-hidden w-100">
+            <Container fluid className="p-0">
+                <div className="absolute overflow-hidden">
+                    <div className="absolute inset-0 justify-center mt-5">
+                        <div className="bg-shape1 bg-1 opacity-c bg-blur mx-3 mt-5"></div>
+                        <div className="bg-shape2 bg-2 opacity-c bg-blur mt-5"></div>
+                        <div className="bg-shape1 bg-3 opacity-c bg-blur mt-5"></div>
+                    </div>
+                </div>
+            </Container>
             <div>
                 <img src={headerImg} className="w-100"/>
             </div>
-            <img className="shape1" style={{width:300}} src={ShapeMY} alt="Shape1"/>
+            <img className="shape1" style={{width: 300}} src={ShapeMY} alt="Shape1"/>
             <img className="shape2 w-25" src={Shape2} alt="Shape2"/>
             <img className="shape3 w-25" src={Shape4} alt="Shape3"/>
             <img className="shape4 w-25" src={Shape3} alt="Shape4"/>
@@ -80,18 +91,19 @@ export default function About () {
             </div>
 
             <div className="row mt-5">
-                <h3 id="CONFERENCE_TRACKS" className="text-center text-uppercase mt-5">Conference Tracks</h3>
+                <h3 id="CONFERENCE_TRACKS" className=" text-center text-uppercase mt-5">Conference
+                    Tracks</h3>
 
-                <center>
-                    <b className="p-tracks text-center align-self-center">
+                <div className="col-12 text-center">
+                    <div className="p-tracks text-center align-self-center">
                         <p className="p-text">Ethical Leadership and Values-Based Management</p>
                         <p className="p-text">Living values for Spirituality</p>
                         <p className="p-text">Educational Approaches for Values Integration</p>
                         <p className="p-text">Technology and Values in the Workplace</p>
                         <p className="p-text">Social Responsibility and Sustainable Practices</p>
                         <p className="p-text">Global Perspectives on Living Values</p>
-                    </b>
-                </center>
+                    </div>
+                </div>
             </div>
 
             <div className="mt-5">

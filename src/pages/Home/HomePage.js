@@ -114,6 +114,7 @@ export default function HomePage() {
                     <About/>
                 </div>
             </div>
+            <Footer/>
         </>
     );
 }

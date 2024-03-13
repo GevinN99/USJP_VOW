@@ -7,6 +7,7 @@ import NavBar from "./components/NavBar/NavBar";
 import './App.css';
 import Footer from "./components/Footer/Footer";
 import Registration from "./components/Registration/Registration";
+import History from "./components/History/History";
 
 function App() {
     return (
@@ -17,6 +18,7 @@ function App() {
                 <Route path="/about" element={<About />} />
                 <Route path="/call-for-extended-abstracts" element={<CallForExtendedAbstracts />} />
                 <Route path="/registration" element={<Registration />} />
+                <Route path="/history" element={<History />} />
             </Routes>
         </Router>
     );
