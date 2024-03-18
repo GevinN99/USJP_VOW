@@ -7,14 +7,10 @@ import RegBg from "../../assets/images/RegBg.png";
 export default function Registration() {
     return (
         <>
-            <Container className="mt-3 text-center">
-
+            <Container className=" text-center">
                 <img className="RegBg" style={{width: 300}} src={RegBg} alt="RegBg"/>
-                <h1 className="fadeInOut">Conference Registration</h1>
-                <p>All conference participants must pay the conference registration fee. For each extended abstract, at
-                    least one author must attend and pay the registration fee. Delegates can choose any of the options
-                    given
-                below to participate at the Conference.</p>
+                <h1 className=" fw-bold">Conference Registration</h1>
+                <p>All conference participants must pay the conference registration fee. For each extended abstract, at least one author must attend and pay the registration fee. Delegates can choose any of the options given below to participate at the Conference.</p>
                 <div className="d-flex justify-content-center">
                     <div className="card text-center mt-5 w-50">
                         <div className="card-header">
@@ -22,40 +18,53 @@ export default function Registration() {
                         </div>
                         <ul className="list-group list-group-flush">
                             <li className="list-group-item"><strong>Method:</strong> Bank Transfer</li>
-                            <li className="list-group-item"><strong>Account Name:</strong> Values of the Wise Society
-                            </li>
+                            <li className="list-group-item"><strong>Account Name:</strong> Values of the Wise Society </li>
                             <li className="list-group-item"><strong>Bank:</strong> People's Bank</li>
                             <li className="list-group-item"><strong>Branch:</strong> Gangodawila Branch</li>
                             <li className="list-group-item"><strong>Account Number:</strong> 097200180028108</li>
                         </ul>
                     </div>
-            </div>
-
-
+                </div>
                 <h2 className="mt-5 mb-3">Registration Deadlines & Fees</h2>
-            <Table striped bordered hover>
-                <thead>
-                <tr>
-                    <th>Description</th>
-                    <th>Type of Participants</th>
-                    <th>Fee (Local Authors)</th>
-                    <th>Fee (Foreign Authors)</th>
-                </tr>
-                </thead>
-                <tbody>
-                {/* Add rows here */}
-                </tbody>
-            </Table>
+                <Table striped bordered hover className="yellowBg">
+                    <thead>
+                    <tr>
+                        <th>Description</th>
+                        <th>Fee (Local Authors)</th>
+                        <th>Fee (Foreign Authors)</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>Registration Fee (Before 01st February, 2024)</td>
+                        <td>LKR 3000.00</td>
+                        <td>USD 20</td>
+                    </tr>
+                    <tr>
+                        <td>Registration (PhD Colloquium) – Note</td>
+                        <td>LKR 2000.00</td>
+                        <td>USD 15</td>
+                    </tr>
+                    <tr>
+                        <td>Pre conference workshops – 1 day pass</td>
+                        <td>LKR 3000.00</td>
+                        <td>USD 20</td>
+                    </tr>
+                    <tr>
+                        <td>Pre conference workshops – 2 days pass</td>
+                        <td>LKR 5000.00</td>
+                        <td>USD 35</td>
+                    </tr>
+                    </tbody>
+                </Table>
                 <h2 className="mt-5 mb-3">Conference Registration Fee Include</h2>
                 <div className="reg-text">Admission to research sessions</div>
                 <div className="reg-text">All conference materials</div>
                 <div className="reg-text">Tea/coffee and lunch</div>
                 <div className="reg-text">Certificate of Attendance</div>
                 <h2 className="mt-5">Cancellation Policy</h2>
-                <p>The registration fees shall not be refundable in case of any cancellation or non-attendance due to
-                    any
-                form of personal faults.</p>
-        </Container>
+                <p>The registration fees shall not be refundable in case of any cancellation or non-attendance due to any form of personal faults.</p>
+            </Container>
             <Footer/>
         </>
     );

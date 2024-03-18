@@ -30,3 +30,9 @@ button {
 button:hover {
     background-color: #b17500;
 }
+
+.ConferenceTracks-2{
+    position: absolute;
+    top: 50%;
+    left: -5%;
+}

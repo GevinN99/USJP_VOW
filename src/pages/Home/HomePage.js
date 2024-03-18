@@ -8,7 +8,6 @@ import About from "../../components/About/About";
 import LOGO from "../../assets/images/about_logo.svg";
 import abtBtm from "../../assets/images/NavBtm.svg";
 
-
 export default function HomePage() {
     const [showFirstText, setShowFirstText] = useState(true);
 
@@ -111,7 +110,7 @@ export default function HomePage() {
                 </div>
                 <div className="position-absolute w-100 overflow-hidden mt-5">
                     <img src={abtBtm} className="w-100 nav-h-img"/>
-                    <About/>
+                    {/*<About/>*/}
                 </div>
             </div>
             <Footer/>
