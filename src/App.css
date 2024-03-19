@@ -104,16 +104,6 @@
     box-shadow: 0 0 20px #ffe492;
 }
 
-.reg-text {
-    font-size: 20px;
-    color: #333;
-}
-
-.reg-text:hover {
-    font-size: 25px;
-    transition: all .5s ease;
-}
-
 .RegBg {
     position: absolute;
     top: 30%;

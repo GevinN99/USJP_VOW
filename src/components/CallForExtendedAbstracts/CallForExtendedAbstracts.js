@@ -14,8 +14,8 @@ export default function CallForExtendedAbstracts() {
             <img className="ConferenceTracks-2 w-25" src={ConferenceTracks} alt="ConferenceTracksImg"/>
             <img src={headerImg} className="img-fluid"/>
             <div className="container ">
-                <div className="row mt-5">
-                    <h3 className=" text-center text-uppercase mt-5">Conference
+                <div className="row">
+                    <h3 className=" text-center text-uppercase">Conference
                         Tracks</h3>
 
                     <div className="col-12 text-center">
@@ -29,10 +29,17 @@ export default function CallForExtendedAbstracts() {
                         </div>
                     </div>
                 </div>
-                <h3 className=" text-center text-uppercase mt-5">Submission Guidelines</h3>
                 <div className="row justify-content-center mt-5">
-                    <iframe src="https://drive.google.com/file/d/1TOGPs6Msc9Tf9dGtNLOVupHr_n1o_Z4-/preview" width="640"
-                            height="600" allow="autoplay"></iframe>
+                    <div className="col-md-6">
+                        <h3 className=" text-center text-uppercase mt-5">Submission Guidelines</h3>
+                        <iframe src="https://drive.google.com/file/d/1neuw8_ZQoGxMlrjgk57HjyZwOyxP3zik/preview" width="100%"
+                                height="480" allow="autoplay"></iframe>
+                    </div>
+                    <div className="col-md-6">
+                        <h3 className=" text-center text-uppercase mt-5">EXTENDED ABSTRACT TEMPLATE</h3>
+                        <iframe src="https://drive.google.com/file/d/1V3bvwqgS_8d76YWlpGzwYJydRtTdpb-b/preview" width="100%"
+                                height="480" allow="autoplay"></iframe>
+                    </div>
                 </div>
                 <h3 className="text-center text-uppercase mt-5">Submission Form</h3>
                 <div className="row justify-content-center">

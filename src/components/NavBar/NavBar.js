@@ -5,6 +5,7 @@ import { Link as RouterLink, useLocation } from 'react-router-dom';
 import '../../App.css';
 import logo from '../../assets/images/Logo.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import PreConferenceWorkshops from "../PreConferenceWorkshops/PreConferenceWorkshops";
 
 export default function NavBar() {
     const [open, setOpen] = useState(false);
@@ -40,7 +41,7 @@ export default function NavBar() {
                         <Nav.Link as={RouterLink} to="/call-for-extended-abstracts" className="mx-3 custom-nav-link">
                             Call For Extended Abstracts
                         </Nav.Link>
-                        <Nav.Link as={RouterLink} to="/preConference" className="mx-3 custom-nav-link">
+                        <Nav.Link as={RouterLink} to="/PreConferenceWorkshops" className="mx-3 custom-nav-link">
                             Pre Conference Workshops
                         </Nav.Link>
                         <Nav.Link as={RouterLink} to="/history" className="mx-3 custom-nav-link">

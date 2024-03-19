@@ -8,6 +8,7 @@ import './App.css';
 import Footer from "./components/Footer/Footer";
 import Registration from "./components/Registration/Registration";
 import History from "./components/History/History";
+import PreConferenceWorkshops from "./components/PreConferenceWorkshops/PreConferenceWorkshops";
 
 function App() {
     return (
@@ -19,6 +20,7 @@ function App() {
                 <Route path="/call-for-extended-abstracts" element={<CallForExtendedAbstracts />} />
                 <Route path="/registration" element={<Registration />} />
                 <Route path="/history" element={<History />} />
+                <Route path="/PreConferenceWorkshops" element={<PreConferenceWorkshops />} />
             </Routes>
         </Router>
     );

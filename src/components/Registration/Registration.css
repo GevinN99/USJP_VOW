@@ -52,3 +52,22 @@ body {
     background-color: yellow !important;
 }
 
+.RegistrationFee{
+    position: absolute;
+    top: 120%;
+    left: -5%;
+}
+
+.RegHead{
+    color: #F5B700;
+}
+
+.reg-text{
+    background-color: #E59700;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    width: 50%;
+}

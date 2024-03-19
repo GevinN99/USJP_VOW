@@ -3,6 +3,9 @@ import { Container, Row, Col } from 'react-bootstrap';
 import {FaFacebookSquare, FaGoogle, FaInstagram, FaLinkedin} from "react-icons/fa";
 import {FaSquareXTwitter} from "react-icons/fa6";
 import '../../App.css';
+import UniLogo from '../../assets/images/Uni_logo.png';
+import CGULogo from '../../assets/images/Cgu_logo.png';
+import VOWLogo from '../../assets/images/Logo.png';
 
 export default function Footer() {
     return (
@@ -13,41 +16,36 @@ export default function Footer() {
                 </div>
                 <div>
                     <div className="icon-footer">
-                        <a href="" className="me-4 text-reset">
-                            <FaFacebookSquare />
+                        <a href="https://www.facebook.com/profile.php?id=100093159990218" className="me-4 text-reset">
+                            <FaFacebookSquare/>
                         </a>
-                        <a href="" className="me-4 text-reset">
-                            <FaSquareXTwitter />
+                        <a href="vowsociety.usjp@gmail.com" className="me-4 text-reset">
+                            <FaGoogle/>
                         </a>
-                        <a href="" className="me-4 text-reset">
-                            <FaGoogle />
-                        </a>
-                        <a href="" className="me-4 text-reset">
-                            <FaInstagram />
-                        </a>
-                        <a href="" className="me-4 text-reset">
-                            <FaLinkedin />
-                        </a>
+                        {/*<a href="" className="me-4 text-reset">*/}
+                        {/*    <FaInstagram />*/}
+                        {/*</a>*/}
+                        {/*<a href="" className="me-4 text-reset">*/}
+                        {/*    <FaLinkedin />*/}
+                        {/*</a>*/}
                     </div>
                 </div>
             </section>
             <section>
                 <Container className="text-center text-md-start mt-5">
                     <Row className="mt-3">
-                        <Col md={3} lg={4} xl={3} className="mx-auto mb-4">
-                            <h6 className="text-uppercase fw-bold mb-4">
-                                <i className="fas fa-gem me-3"></i>Company name
-                            </h6>
-                            <p>
-                                Whether you’re an estate agent looking to expand your reach or a buyer seeking your dream property, the Estate Agent App makes the process efficient, transparent, and hassle-free. Join us in transforming the real estate landscape!
-                            </p>
+                        <Col>
+                                <Row>
+                                    <Col xs={6} md={2}><img src={UniLogo} alt="UniLogo" className="img-fluid " st/></Col>
+                                </Row>
+                                <Row>
+                                    <Col xs={6} md={2}><img src={VOWLogo} alt="VOWLogo" className="img-fluid" /></Col>
+                                </Row>
+                                <Row>
+                                    <Col xs={6} md={2}><img src={CGULogo} alt="CGULogo" className="img-fluid" /></Col>
+                                </Row>
                         </Col>
-                        <Col md={2} lg={2} xl={2} className="mx-auto mb-4">
-                            <h6 className="text-uppercase fw-bold mb-4">
-                                Products
-                            </h6>
-                            {/* Add your product links here */}
-                        </Col>
+
                         <Col md={3} lg={2} xl={2} className="mx-auto mb-4">
                             <h6 className="text-uppercase fw-bold mb-4">
                                 Useful links

@@ -3,13 +3,16 @@ import {Container, Table} from 'react-bootstrap';
 import '../../App.css';
 import Footer from "../Footer/Footer";
 import RegBg from "../../assets/images/RegBg.png";
+import RegistrationFee from "../../assets/images/RegistrationFee.png";
+import './Registration.css';
 
 export default function Registration() {
     return (
         <>
             <Container className=" text-center">
+                <img className="RegistrationFee" style={{width: 300}} src={RegistrationFee} alt="RegistrationFee"/>
                 <img className="RegBg" style={{width: 300}} src={RegBg} alt="RegBg"/>
-                <h1 className=" fw-bold">Conference Registration</h1>
+                <h1 className="RegHead fw-bold">Conference Registration</h1>
                 <p>All conference participants must pay the conference registration fee. For each extended abstract, at least one author must attend and pay the registration fee. Delegates can choose any of the options given below to participate at the Conference.</p>
                 <div className="d-flex justify-content-center">
                     <div className="card text-center mt-5 w-50">
@@ -57,11 +60,14 @@ export default function Registration() {
                     </tr>
                     </tbody>
                 </Table>
-                <h2 className="mt-5 mb-3">Conference Registration Fee Include</h2>
-                <div className="reg-text">Admission to research sessions</div>
-                <div className="reg-text">All conference materials</div>
-                <div className="reg-text">Tea/coffee and lunch</div>
-                <div className="reg-text">Certificate of Attendance</div>
+                <h2 className="mt-5 mb-3 ">Conference Registration Fee Include</h2>
+                <center>
+                    <div className="reg-text w-50">Admission to research sessions</div>
+                    <div className="reg-text ">All conference materials</div>
+                    <div className="reg-text ">Tea/coffee and lunch</div>
+                    <div className="reg-text ">Certificate of Attendance</div>
+                </center>
+
                 <h2 className="mt-5">Cancellation Policy</h2>
                 <p>The registration fees shall not be refundable in case of any cancellation or non-attendance due to any form of personal faults.</p>
             </Container>
