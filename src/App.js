@@ -9,6 +9,8 @@ import Footer from "./components/Footer/Footer";
 import Registration from "./components/Registration/Registration";
 import History from "./components/History/History";
 import PreConferenceWorkshops from "./components/PreConferenceWorkshops/PreConferenceWorkshops";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
     return (

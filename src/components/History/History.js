@@ -1,5 +1,5 @@
 import React from 'react';
-import {Container} from 'react-bootstrap';
+import {Col, Container, Row} from 'react-bootstrap';
 import Footer from "../Footer/Footer";
 import '../../App.css';
 
@@ -15,9 +15,9 @@ export default function History() {
                     </div>
                 </div>
             </Container>
-            <div className="container mt-3">
-                <div className="row">
-                    <div className="col text-center">
+            <Container className="mt-3">
+                <Row>
+                    <Col xs={12} md={8} className="mx-auto text-center">
                         <h1 className="his-text">History</h1>
                         <p className="text-justify mt-4 mb-4">
                             On May 23rd, 2023, Sri Lanka hosted the 1st International Conference on Living Values
@@ -69,14 +69,14 @@ export default function History() {
                             nation's educational system. This pivotal moment paves the way for building a future
                             generation grounded in strong ethical principles, ensuring a brighter future for Sri Lanka.
                         </p>
-                    </div>
-                </div>
-            </div>
-            <center className="mt-3">
-                <iframe src="https://drive.google.com/file/d/1AIR38asmtfMojxuruVUh_UNADUypH9oP/preview" width="840"
+                    </Col>
+                </Row>
+            </Container>
+            <Container className="mt-3 text-center">
+                <iframe src="https://drive.google.com/file/d/1AIR38asmtfMojxuruVUh_UNADUypH9oP/preview" width="100%"
                         height="680" allow="autoplay"></iframe>
                 <Footer/>
-            </center>
+            </Container>
         </>
     );
 }

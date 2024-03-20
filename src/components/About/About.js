@@ -13,7 +13,7 @@ import Committee from "./Committee";
 import NavBar from "../NavBar/NavBar";
 import Footer from "../Footer/Footer";
 import React from "react";
-import {Container} from "react-bootstrap";
+import { Container, Row, Col, Card } from 'react-bootstrap';
 
 export default function About () {
     return (
@@ -108,12 +108,10 @@ export default function About () {
             </section>
 
             <section id="CONFERENCE_TRACKS">
-                <div className="row mt-5">
-                    <h3 className=" text-center text-uppercase mt-5">Conference
-                        Tracks</h3>
-
-                    <div className="col-12 text-center">
-                        <div className="p-tracks text-center align-self-center">
+                <div className="row mt-5 justify-content-center">
+                    <div className="col-12 col-md-8 text-center">
+                        <h3 className="text-uppercase mt-5">Conference Tracks</h3>
+                        <div className="p-tracks align-self-center">
                             <p className="p-text">Ethical Leadership and Values-Based Management</p>
                             <p className="p-text">Living values for Spirituality</p>
                             <p className="p-text">Educational Approaches for Values Integration</p>
@@ -197,51 +195,55 @@ export default function About () {
             </section>
 
             <section id="conference-venue">
-                <div className="venue-text-center mt-5">
-                    <h1>Conference Venue</h1>
-
-                    <div className="free-conference-container">
-                        <div className="free-conference-details">
-                            <h4 className="mt-5">Free Conference :</h4>
-                            <h2 className="v-text">26<sup>th</sup> August 2024</h2>
-                            <h3 className="v-1-text">Sumangala building - University of Sri Jayewardenepura</h3>
-                        </div>
-                        <div className="free-conference-map" style={{position: 'relative'}}>
-                            <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1231.8732751104858!2d79.90536726797065!3d6.854148832145871!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae25a88fda7c443%3A0xd2c9266839c8deac!2sSumangala%20Building!5e0!3m2!1sen!2slk!4v1710740469672!5m2!1sen!2slk"
-                                width="400" height="300" style={{border: 0, borderRadius:30}} allowFullScreen="" loading="lazy"
-                                referrerPolicy="no-referrer-when-downgrade"></iframe>
-                        </div>
-                    </div>
-
-                    <div className="main-conference-container">
-                        <div className="main-conference-details">
-                            <h4 className="mt-5">Main Conference :</h4>
-                            <h2 className="v-text">27<sup>th</sup> August 2024</h2>
-                            <h3 className="v-1-text">Colombo, Sri Lanka</h3>
-                        </div>
-                        <div className="main-conference-map" style={{position: 'relative'}}>
-                            <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126743.58638744405!2d79.7738030325544!3d6.922001981332362!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae253d10f7a7003%3A0x320b2e4d32d3838d!2sColombo!5e0!3m2!1sen!2slk!4v1710741223943!5m2!1sen!2slk"
-                                width="400" height="300" style={{border: 0, borderRadius:30}} allowFullScreen="" loading="lazy"
-                                referrerPolicy="no-referrer-when-downgrade"></iframe>
-                        </div>
-                    </div>
-
-                    <div className="post-conference-container">
-                        <div className="post-conference-details">
-                            <h4 className="mt-5">Post Conference :</h4>
-                            <h2 className="v-text">28<sup>th</sup> August 2024</h2>
-                            <h3 className="v-1-text">Mithrigala Nissarana Vanaya, Mitirigala, Sri Lanka</h3>
-                        </div>
-                        <div className="post-conference-map" style={{position: 'relative'}}>
-                            <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.1007944119665!2d80.16968787448324!3d6.997410117475871!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae300a45db8f1b7%3A0xed2afe268aaaeb9e!2sMitirigala%20Nissarana%20Forest%20Temple!5e0!3m2!1sen!2slk!4v1710741769943!5m2!1sen!2slk"
-                                width="400" height="300" style={{border: 0, borderRadius:30}} allowFullScreen="" loading="lazy"
-                                referrerPolicy="no-referrer-when-downgrade"></iframe>
-                        </div>
-                    </div>
-                </div>
+                <Container className="venue-text-center mt-5">
+                    <h2 className="mb-5">Conference Venue</h2>
+                    <Row className="h-100">
+                        <Col xs={12} md={4}>
+                            <Card className="mb-4 h-100 d-flex flex-column">
+                                <Card.Body className="flex-grow-1">
+                                    <Card.Title><h2 className="y-text">Free Conference</h2></Card.Title>
+                                    <Card.Subtitle className="mb-2 text-muted"><h3
+                                        className="lead">26<sup>th</sup> August 2024</h3></Card.Subtitle>
+                                    <Card.Text><p className="text-secondary">Sumangala building - University of Sri
+                                        Jayewardenepura</p></Card.Text>
+                                </Card.Body>
+                                <div className="embed-responsive embed-responsive-16by9">
+                                    <iframe className="embed-responsive-item"
+                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1231.8732751104858!2d79.90536726797065!3d6.854148832145871!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae25a88fda7c443%3A0xd2c9266839c8deac!2sSumangala%20Building!5e0!3m2!1sen!2slk!4v1710740469672!5m2!1sen!2slk"></iframe>
+                                </div>
+                            </Card>
+                        </Col>
+                        <Col xs={12} md={4}>
+                            <Card className="mb-4 h-100 d-flex flex-column">
+                                <Card.Body className="flex-grow-1">
+                                    <Card.Title><h2 className="y-text">Main Conference</h2></Card.Title>
+                                    <Card.Subtitle className="mb-2 text-muted"><h3
+                                        className="lead">27<sup>th</sup> August 2024</h3></Card.Subtitle>
+                                    <Card.Text><p className="text-secondary">Colombo, Sri Lanka</p></Card.Text>
+                                </Card.Body>
+                                <div className="embed-responsive embed-responsive-16by9">
+                                    <iframe className="embed-responsive-item"
+                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126743.58638744405!2d79.7738030325544!3d6.922001981332362!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae253d10f7a7003%3A0x320b2e4d32d3838d!2sColombo!5e0!3m2!1sen!2slk!4v1710741223943!5m2!1sen!2slk"></iframe>
+                                </div>
+                            </Card>
+                        </Col>
+                        <Col xs={12} md={4}>
+                            <Card className="mb-4 h-100 d-flex flex-column">
+                                <Card.Body className="flex-grow-1">
+                                    <Card.Title><h2 className="y-text">Post Conference</h2></Card.Title>
+                                    <Card.Subtitle className="mb-2 text-muted"><h3
+                                        className="lead">28<sup>th</sup> August 2024</h3></Card.Subtitle>
+                                    <Card.Text><p className="text-secondary">Mithrigala Nissarana Vanaya, Mitirigala,
+                                        Sri Lanka</p></Card.Text>
+                                </Card.Body>
+                                <div className="embed-responsive embed-responsive-16by9">
+                                    <iframe className="embed-responsive-item"
+                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.1007944119665!2d80.16968787448324!3d6.997410117475871!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae300a45db8f1b7%3A0xed2afe268aaaeb9e!2sMitirigala%20Nissarana%20Forest%20Temple!5e0!3m2!1sen!2slk!4v1710741769943!5m2!1sen!2slk"></iframe>
+                                </div>
+                            </Card>
+                        </Col>
+                    </Row>
+                </Container>
             </section>
 
 
