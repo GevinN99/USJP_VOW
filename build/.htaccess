@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www\.iclve24\.info [NC]
+RewriteRule ^(.*)$ https://iclve24.info/$1 [L,R=301]
