@@ -130,7 +130,7 @@ export default function About () {
 
                         <div className="row date-box ">
                             <div className="col ">
-                                <p>27th February 2024</p>
+                                <p>18th of March 2024</p>
                             </div>
                             <div className="col">
                                 <p>Calling for extended abstracts</p>
@@ -139,7 +139,7 @@ export default function About () {
 
                         <div className="row date-box">
                             <div className="col">
-                                <p>22nd of April 2024</p>
+                                <p>30th of April 2024</p>
                             </div>
                             <div className="col">
                                 <p>Deadline of the Submission of the extended Abstract</p>
@@ -148,7 +148,7 @@ export default function About () {
 
                         <div className="row date-box">
                             <div className="col">
-                                <p>22nd May 2024</p>
+                                <p>30th May 2024</p>
                             </div>
                             <div className="col">
                                 <p>The Review of extended abstracts</p>
@@ -184,7 +184,7 @@ export default function About () {
 
                         <div className="row date-box">
                             <div className="col">
-                                <p>26th August - 28th August 2024</p>
+                                <p>21th August - 23rd August 2024</p>
                             </div>
                             <div className="col">
                                 <p>Conference dates</p>
@@ -203,7 +203,7 @@ export default function About () {
                                 <Card.Body className="flex-grow-1">
                                     <Card.Title><h2 className="y-text">Free Conference</h2></Card.Title>
                                     <Card.Subtitle className="mb-2 text-muted"><h3
-                                        className="lead">26<sup>th</sup> August 2024</h3></Card.Subtitle>
+                                        className="lead">21<sup>st</sup> August 2024</h3></Card.Subtitle>
                                     <Card.Text><p className="text-secondary">Sumangala building - University of Sri
                                         Jayewardenepura</p></Card.Text>
                                 </Card.Body>
@@ -218,7 +218,7 @@ export default function About () {
                                 <Card.Body className="flex-grow-1">
                                     <Card.Title><h2 className="y-text">Main Conference</h2></Card.Title>
                                     <Card.Subtitle className="mb-2 text-muted"><h3
-                                        className="lead">27<sup>th</sup> August 2024</h3></Card.Subtitle>
+                                        className="lead">22<sup>nd</sup> August 2024</h3></Card.Subtitle>
                                     <Card.Text><p className="text-secondary">Colombo, Sri Lanka</p></Card.Text>
                                 </Card.Body>
                                 <div className="embed-responsive embed-responsive-16by9">
@@ -232,7 +232,7 @@ export default function About () {
                                 <Card.Body className="flex-grow-1">
                                     <Card.Title><h2 className="y-text">Post Conference</h2></Card.Title>
                                     <Card.Subtitle className="mb-2 text-muted"><h3
-                                        className="lead">28<sup>th</sup> August 2024</h3></Card.Subtitle>
+                                        className="lead">23<sup>rd</sup> August 2024</h3></Card.Subtitle>
                                     <Card.Text><p className="text-secondary">Mithrigala Nissarana Vanaya, Mitirigala,
                                         Sri Lanka</p></Card.Text>
                                 </Card.Body>
