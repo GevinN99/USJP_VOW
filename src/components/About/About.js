@@ -10,10 +10,9 @@ import ImportantDates from "../../assets/images/ImportantDates.png";
 
 import './About.css';
 import Committee from "./Committee";
-import NavBar from "../NavBar/NavBar";
 import Footer from "../Footer/Footer";
 import React from "react";
-import { Container, Row, Col, Card } from 'react-bootstrap';
+import {Card, Col, Container, Row} from 'react-bootstrap';
 
 export default function About () {
     return (
@@ -85,8 +84,9 @@ export default function About () {
                             into their educational pedagogy and career guidance initiatives.
                         </div>
                         <div className="row w-75 text-center pt-3">
-                            Moreover, the collaborative efforts of the Faculty of Social Sciences and Humanities of the
-                            University of Sri Jayewardenepura and the esteemed Association of Living Values Education
+                            Moreover, VOW society is organizing this event with international Center for
+                            Multidisciplinary studies , FHSS, university of Sri Jayewardenepura and the esteemed
+                            Association of Living Values Education
                             (ALIVE) in Hong Kong underscore the global significance and reach of the ICLVE. By fostering
                             cross-cultural dialogue and knowledge exchange, the conference serves as a catalyst for
                             positive
@@ -178,7 +178,7 @@ export default function About () {
                                 <p>15th of July 2024</p>
                             </div>
                             <div className="col">
-                                <p>Registration for abstract Presentation</p>
+                                <p>Registration for Presentation and Participation</p>
                             </div>
                         </div>
 

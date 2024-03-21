@@ -2,7 +2,7 @@ import Chamodya from "../../assets/images/Committee/Chamodya .svg";
 import chandima from "../../assets/images/Committee/Chandima.svg";
 import Darshitha from "../../assets/images/Committee/Darshitha .svg";
 import Dinelka from "../../assets/images/Committee/Dinelka.svg";
-// import DrRohanaUlluwishewa from "../../assets/images/Committee/DrRohanaUlluwishewa.svg";
+// import DrRohanaUlluwishewa from "../../assets/images/Committee/";
 import Durga from "../../assets/images/Committee/Durga .svg";
 import Fernando from "../../assets/images/Committee/Fernando.svg";
 import GeesiluniPeramuna from "../../assets/images/Committee/GeesiluniPeramuna.svg";
@@ -64,7 +64,6 @@ export default function Committee() {
                             <div className="card-body">
                                 <h5 className="card-title">Prof. Sudath Manjula Amarasena</h5>
                                 <p className="card-text">Director, Career Guidance Unit</p>
-                                <p className="card-text">+94777216953</p>
                                 <p className="card-text">sudath@sjp.ac.lk</p>
                             </div>
                         </div>
@@ -76,7 +75,6 @@ export default function Committee() {
                             <div className="card-body">
                                 <h5 className="card-title">Prof. Shirantha Heenkenda</h5>
                                 <p className="card-text">Dean, Faculty of Humanistic and Social Sciences</p>
-                                <p className="card-text">+94777125101</p>
                                 <p className="card-text">deanfhss@sjp.ac.lk</p>
                             </div>
                         </div>
@@ -88,7 +86,6 @@ export default function Committee() {
                             <div className="card-body">
                                 <h5 className="card-title">Prof. Charmalie Nahallage</h5>
                                 <p className="card-text">Member, International Center for Multidisciplinary Studies</p>
-                                <p className="card-text">+94718071404</p>
                                 <p className="card-text">chamalie@sjp.ac.lk</p>
                             </div>
                         </div>
@@ -98,22 +95,24 @@ export default function Committee() {
                         <div className="card shadow h-100 p-3 m-2">
                             {/*<img src={Advisor4ImageSource} className="card-img-top" alt="Advisor 4"/>*/}
                             <div className="card-body">
-                                <h5 className="card-title">Advisor 4 Name</h5>
-                                <p className="card-text">Advisor 4 Title</p>
-                                <p className="card-text">Advisor 4 Phone</p>
-                                <p className="card-text">Advisor 4 Email</p>
+                                <h5 className="card-title">Dr Sanath Mahawithanage</h5>
+                                <p className="card-text">Senior Lecturer, Department of
+                                    Biochemistry, Faculty of Medical Sciences , Director of
+                                    Center for Mindfulness Research, University of Sri
+                                    Jayewardenepura</p>
+                                <p className="card-text">sanath.mahawithanage@gmail.com</p>
                             </div>
                         </div>
                     </div>
                     {/* Card 5 */}
                     <div className="col-lg-4 col-md-6 mb-4">
                         <div className="card shadow h-100 p-3 m-2">
-                            {/*<img src={Advisor5ImageSource} className="card-img-top" alt="Advisor 5"/>*/}
+                            {/*<img src={DrRohanaUlluwishewa} className="card-img-top" alt="DrRohanaUlluwishewa"/>*/}
                             <div className="card-body">
-                                <h5 className="card-title">Advisor 5 Name</h5>
-                                <p className="card-text">Advisor 5 Title</p>
-                                <p className="card-text">Advisor 5 Phone</p>
-                                <p className="card-text">Advisor 5 Email</p>
+                                <h5 className="card-title">Dr. Rohana Ulluwishewa</h5>
+                                <p className="card-text">Retired Professor/Independent
+                                    Researcher and Write</p>
+                                <p className="card-text">ulluwishewa@xtra.co.nz</p>
                             </div>
                         </div>
                     </div>
@@ -152,6 +151,7 @@ export default function Committee() {
                             <div className="card-body">
                                 <h5>Mrs. H.M.S. Niroshani</h5>
                                 <p>Career Guidance Unit, University of Sri Jayewardenepura</p>
+                                <h6>+94 71700 8793</h6>
                             </div>
                         </div>
                     </div>
@@ -162,6 +162,7 @@ export default function Committee() {
                             <div className="card-body">
                                 <h5>Mr. T. Thirumayuran</h5>
                                 <p>Director, Association of Living Values Education International</p>
+                                <h6>+94 772849599</h6>
                             </div>
                         </div>
                     </div>

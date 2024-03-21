@@ -21,9 +21,9 @@ export default function CallForExtendedAbstracts() {
                     <div className="col-12 text-center">
                         <div className="p-tracks text-center align-self-center">
                             <p className="p-text">Educational Approaches for Values Integration</p>
+                            <p className="p-text">Spirituality in Education  for Living Values</p>
                             <p className="p-text">Ethical Leadership and Values-Based Management</p>
-                            <p className="p-text">Spirituality in Education for Living Values</p>
-                            <p className="p-text">Technology /AI and Values in the Workplace</p>
+                            <p className="p-text">Technology / AI and Values in the Workplace</p>
                             <p className="p-text">Social Responsibility and Sustainable Practices</p>
                             <p className="p-text">Global Perspectives on Living Values Education</p>
                         </div>
@@ -37,7 +37,7 @@ export default function CallForExtendedAbstracts() {
                     </div>
                     <div className="col-md-6">
                         <h3 className=" text-center text-uppercase mt-5">EXTENDED ABSTRACT TEMPLATE</h3>
-                        <iframe src="https://drive.google.com/file/d/1V3bvwqgS_8d76YWlpGzwYJydRtTdpb-b/preview" width="100%"
+                        <iframe src="https://drive.google.com/file/d/1acJJN5j8XaIMZkx9ysfYjqM_Xplx3Bl0/preview" width="640" height="480"
                                 height="480" allow="autoplay"></iframe>
                     </div>
                 </div>

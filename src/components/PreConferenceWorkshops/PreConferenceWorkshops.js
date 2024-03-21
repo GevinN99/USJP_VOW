@@ -11,7 +11,7 @@ export default function PreConferenceWorkshops() {
                     <Col xs={12}>
                         <h1 className="RegHead fw-bold mt-3">Pre Conference Workshops</h1>
                         <p className="mt-5">
-                            The International Conference on Living Values Education 2024 (ICLVE) is a prestigious event, which is organized by the VOW Society of Career Guidance Unit, University of Sri Jayewardenepura in collaboration with Association for Living Values Education International ("ALIVE") Hong Kong, and International Center for Multidisciplinary Studies, Faculty of Humanities and Social Sciences of University of Sri Jayewardenepura from 21st to 23rd August 2024 in Colombo, Sri Lanka.
+                            The International Conference on Living Values Education 2024 (ICLVE) is a prestigious event, which is organized by the VOW Society of the Career Guidance Unit of the University of Sri Jayewardenepura and the International Centre for Multidisciplinary Studies of the Faculty of Humanities and Social Sciences with the collaborative efforts of the Association of Living Values Education.
                         </p>
                         <p className="mt-3">
                             ICLVE ‘24 articulates under the theme "Cultivating Living Values for Exquisite Professional Personality” and the Conference will focus on Living values and Career Development. There will be four Living Values related workshops under the following topics prior to the Conference.

@@ -33,31 +33,31 @@ export default function Registration() {
                         <Table striped bordered hover className="yellowBg">
                             <thead>
                             <tr>
-                                <th>Description</th>
-                                <th>Fee (Local Authors)</th>
-                                <th>Fee (Foreign Authors)</th>
+                                <th>Category</th>
+                                <th>Early Bird</th>
+                                <th>Late Bird</th>
                             </tr>
                             </thead>
                             <tbody>
                             <tr>
-                                <td>Registration Fee (Before 01st February, 2024)</td>
+                                <td>International Delegates</td>
+                                <td>100 USD</td>
+                                <td>150 USD</td>
+                            </tr>
+                            <tr>
+                                <td>Local delegates</td>
+                                <td>LKR 6000.00</td>
+                                <td>LKR 7000.00</td>
+                            </tr>
+                            <tr>
+                                <td>Local University students</td>
+                                <td>LKR 2500.00</td>
                                 <td>LKR 3000.00</td>
-                                <td>USD 20</td>
                             </tr>
                             <tr>
-                                <td>Registration (PhD Colloquium) – Note</td>
-                                <td>LKR 2000.00</td>
-                                <td>USD 15</td>
-                            </tr>
-                            <tr>
-                                <td>Pre conference workshops – 1 day pass</td>
-                                <td>LKR 3000.00</td>
-                                <td>USD 20</td>
-                            </tr>
-                            <tr>
-                                <td>Pre conference workshops – 2 days pass</td>
+                                <td>Participants</td>
                                 <td>LKR 5000.00</td>
-                                <td>USD 35</td>
+                                <td>LKR 6000.00</td>
                             </tr>
                             </tbody>
                         </Table>
