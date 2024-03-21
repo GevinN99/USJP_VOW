@@ -20,12 +20,12 @@ export default function CallForExtendedAbstracts() {
 
                     <div className="col-12 text-center">
                         <div className="p-tracks text-center align-self-center">
-                            <p className="p-text">Ethical Leadership and Values-Based Management</p>
-                            <p className="p-text">Living values for Spirituality</p>
                             <p className="p-text">Educational Approaches for Values Integration</p>
-                            <p className="p-text">Technology and Values in the Workplace</p>
+                            <p className="p-text">Ethical Leadership and Values-Based Management</p>
+                            <p className="p-text">Spirituality in Education for Living Values</p>
+                            <p className="p-text">Technology /AI and Values in the Workplace</p>
                             <p className="p-text">Social Responsibility and Sustainable Practices</p>
-                            <p className="p-text">Global Perspectives on Living Values</p>
+                            <p className="p-text">Global Perspectives on Living Values Education</p>
                         </div>
                     </div>
                 </div>
