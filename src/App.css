@@ -75,19 +75,55 @@
     display: none;
     text-align: center;
 }
-
-
-/*      Footer      */
-
+/* Footer */
 .card-footer {
     position: relative;
     z-index: 1;
     background-color: white;
+    box-shadow: 0px -3px 15px rgba(0, 0, 0, 0.1); /* Adding a subtle shadow */
 }
 
 .card-footer a:hover {
     color: #F5B700 !important;
 }
+
+.card-footer section {
+    padding: 1rem 0; /* Add some padding to sections */
+}
+
+.card-footer .icon-footer {
+    font-size: 2rem; /* Increase icon size */
+}
+
+.card-footer h6 {
+    color: #555; /* Darken text color */
+}
+
+.card-footer img {
+    transition: transform 0.3s ease; /* Add smooth transition for images */
+}
+
+.card-footer img:hover {
+    transform: scale(1.1); /* Zoom in on image hover */
+}
+
+.card-footer .text-center p {
+    color: #777; /* Lighten text color */
+}
+
+.card-footer .text-center a {
+    color: #777; /* Lighten link color */
+    transition: color 0.3s ease; /* Add transition effect for link hover */
+}
+
+.card-footer .text-center a:hover {
+    color: #F5B700; /* Change link color on hover */
+}
+
+.card-footer .text-center p:last-child {
+    margin-bottom: 0; /* Remove bottom margin for last paragraph */
+}
+
 
 /*      About     */
 .date-list{
