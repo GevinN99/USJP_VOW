@@ -1,12 +1,13 @@
 import React from 'react';
-import {Container, Table, Row, Col} from 'react-bootstrap';
+import { Container, Table, Row, Col } from 'react-bootstrap';
 import Footer from "../Footer/Footer";
+import ReactPlayer from 'react-player';
 import "../Registration/Registration.css";
 
 export default function PreConferenceWorkshops() {
     return (
         <>
-            <Container className=" text-center">
+            <Container className="text-center">
                 <Row>
                     <Col xs={12}>
                         <h1 className="RegHead fw-bold mt-3">Pre Conference Workshops</h1>
@@ -31,8 +32,8 @@ export default function PreConferenceWorkshops() {
                             <tr>
                                 <td>1</td>
                                 <td>Introducing Living values education (Online platform)</td>
-                                <td>ALIVE</td>
-                                <td>23rd of March</td>
+                                <td>Mr. T.T. Mayuran<br/>[ Director Center for Children Happiness (CCH) and country director Sri Lanka association of living values education ]</td>
+                                <td>27th of April</td>
                             </tr>
                             <tr>
                                 <td>2</td>
@@ -43,17 +44,38 @@ export default function PreConferenceWorkshops() {
                             <tr>
                                 <td>3</td>
                                 <td>Importance of living values for professional development (Online Platform)</td>
-                                <td>University of New England</td>
-                                <td>30th of March</td>
+                                <td>Dr. Indujeewa Peiris</td>
+                                <td>7th of April</td>
                             </tr>
                             <tr>
                                 <td>4</td>
                                 <td>Exploring value based management in workplace ii</td>
-                                <td>MAS Holdings</td>
+                                <td>Barkavi Shanthikuamar & Mark Thrimawithana</td>
                                 <td>3rd of April</td>
                             </tr>
                             </tbody>
                         </Table>
+                    </Col>
+                </Row>
+                <Row className="mb-5">
+                    <Col>
+                        <h2 className="mt-5 mb-3 text-decoration-underline">Workshop 3</h2>
+                        <p className="mt-3 text-decoration-underline">
+                            Importance of living values for professional development
+                        </p>
+                        <div className="video-wrapper">
+                            <ReactPlayer
+                                url="https://www.youtube.com/watch?v=Uzatc94cixo"
+                                width="auto"
+                                height="600px"
+                                controls={true}
+                                config={{
+                                    youtube: {
+                                        playerVars: { showinfo: 1 }
+                                    }
+                                }}
+                            />
+                        </div>
                     </Col>
                 </Row>
             </Container>

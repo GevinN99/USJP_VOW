@@ -5,6 +5,7 @@ import ShapeMY from "../../assets/images/abt1.png";
 import Shape2 from "../../assets/images/shape2.png";
 import Shape3 from "../../assets/images/shape4.png";
 import Shape4 from "../../assets/images/shape3.png";
+import DrAnandSingh from "../../assets/images/DrAnandSingh.png";
 import ConferenceTracks from "../../assets/images/ConferenceTracks.png";
 import ImportantDates from "../../assets/images/ImportantDates.png";
 
@@ -86,8 +87,8 @@ export default function About () {
                         <div className="row w-75 text-center pt-3">
                             Moreover, VOW society is organizing this event with international Center for
                             Multidisciplinary studies , FHSS, university of Sri Jayewardenepura and the esteemed
-                            Association of Living Values Education
-                            (ALIVE) in Hong Kong underscore the global significance and reach of the ICLVE. By fostering
+                            center for children happiness (CCH) and Sri Lanka association of living values education
+                            underscore the global significance and reach of the ICLVE. By fostering
                             cross-cultural dialogue and knowledge exchange, the conference serves as a catalyst for
                             positive
                             change, inspiring participants to become catalysts for ethical leadership, social
@@ -194,6 +195,48 @@ export default function About () {
                 </div>
             </section>
 
+            {/*key note speaker*/}
+            <section id="key-note-speaker mb-5 mt-5">
+                <div className="container mt-5 text-center">
+                    <h2 className=" mb-4 mt-4">Keynote Speaker</h2>
+                    <div className="row justify-content-center">
+                        <div
+                            className="col-lg-4 col-md-6 mb-4 col-sm-6 m-3 shadow rounded-5 d-flex flex-column align-items-center text-center">
+                            <img src={DrAnandSingh} className="w-100 rounded-5 my-3" alt="Keynote Speaker"/>
+                            <h5>Dr. Anand Singh</h5>
+                        </div>
+                        <p>Dr. Anand Singh has a distinguished career in the field of Buddhist studies, with a focus on
+                            narrative literature, environmentalism, and sacred geography. Holding an M.A. and Ph.D. in
+                            Ancient Indian History and Archaeology, he has held various academic positions, including
+                            professorships at prestigious institutions like Nalanda University and Gautam Buddha
+                            University.
+                        </p>
+                        <p>His research interests span a wide range of topics, from Buddhist narrative literature to the
+                            sacred geography of Buddhism. He has received several awards for his outstanding
+                            contributions to the field, including recognition for his books on ecological paradigms in
+                            Buddhism and reciprocity in Buddhist patronage.
+                        </p>
+                        <p>Dr. Singh's international exposure is extensive, with invited talks, lectures, and
+                            participation in conferences across countries like Sri Lanka, Thailand, Vietnam, and
+                            Cambodia. He has also supervised numerous M.Phil. and Ph.D. students, contributing
+                            significantly to the academic community.
+                        </p>
+                        <p>
+                            Additionally, Dr. Singh has organized international conferences on Buddhist traditions,
+                            ideologies, and dissent, showcasing his leadership in academic initiatives. His
+                            publications, comprising books, journals, book chapters, and articles, demonstrate his
+                            profound scholarly contributions to the understanding of Buddhism and its various
+                            dimensions.
+                        </p>
+                        <p>
+                            In summary, Dr. Anand Singh's academic journey reflects a deep commitment to advancing
+                            knowledge in Buddhist studies, environmentalism, and related fields, along with a rich
+                            history of academic achievements, research projects, and international collaborations.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
             <section id="conference-venue">
                 <Container className="venue-text-center mt-5">
                     <h2 className="mb-5">Conference Venue</h2>
@@ -219,11 +262,12 @@ export default function About () {
                                     <Card.Title><h2 className="y-text">Main Conference</h2></Card.Title>
                                     <Card.Subtitle className="mb-2 text-muted"><h3
                                         className="lead">22<sup>nd</sup> August 2024</h3></Card.Subtitle>
-                                    <Card.Text><p className="text-secondary">Colombo, Sri Lanka</p></Card.Text>
+                                    <Card.Text><p className="text-secondary">Galle Face Hotel, Colombo, Sri Lanka</p>
+                                    </Card.Text>
                                 </Card.Body>
                                 <div className="embed-responsive embed-responsive-16by9">
                                     <iframe className="embed-responsive-item"
-                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126743.58638744405!2d79.7738030325544!3d6.922001981332362!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae253d10f7a7003%3A0x320b2e4d32d3838d!2sColombo!5e0!3m2!1sen!2slk!4v1710741223943!5m2!1sen!2slk"></iframe>
+                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.7497127723327!2d79.8459888!3d6.9204959!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae25938b3cdedd9%3A0x2fc02ccdd031c180!2sGalle%20Face%20Hotel!5e0!3m2!1sen!2slk!4v1713435228760!5m2!1sen!2slk"></iframe>
                                 </div>
                             </Card>
                         </Col>

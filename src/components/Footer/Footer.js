@@ -1,6 +1,6 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import {FaFacebookSquare, FaPhone} from "react-icons/fa";
+import {FaFacebookSquare, FaPhone, FaYoutube} from "react-icons/fa";
 import { TbWorld } from "react-icons/tb";
 import UniLogo from '../../assets/images/Uni_logo.png';
 import CGULogo from '../../assets/images/Cgu_logo.png';
@@ -18,6 +18,9 @@ export default function Footer() {
                     <div className="icon-footer">
                         <a href="https://www.facebook.com/profile.php?id=100093159990218" className="me-4 text-reset">
                             <FaFacebookSquare />
+                        </a>
+                        <a href="https://youtube.com/@VOWSociety?feature=shared" className="me-4 text-reset">
+                            <FaYoutube />
                         </a>
                     </div>
                 </div>
