@@ -1,8 +1,9 @@
 import Chamodya from "../../assets/images/Committee/Chamodya .svg";
 import chandima from "../../assets/images/Committee/Chandima.svg";
+import Chathumini from "../../assets/images/Committee/Chathumini.png";
 import Darshitha from "../../assets/images/Committee/Darshitha .svg";
 import Dinelka from "../../assets/images/Committee/Dinelka.svg";
-// import DrRohanaUlluwishewa from "../../assets/images/Committee/";
+import DrRohanaUlluwishewa from "../../assets/images/Committee/DrRohanaUlluwishewa.png";
 import Durga from "../../assets/images/Committee/Durga .svg";
 import Fernando from "../../assets/images/Committee/Fernando.svg";
 import GeesiluniPeramuna from "../../assets/images/Committee/GeesiluniPeramuna.svg";
@@ -14,34 +15,35 @@ import HGLThenura from "../../assets/images/Committee/HGLThenura.svg";
 import HMVSIndrachapa from "../../assets/images/Committee/HMVSIndrachapa.svg";
 import Jayawardhana from "../../assets/images/Committee/Jayawardhana .svg";
 import KADDCharukshi from "../../assets/images/Committee/KADDCharukshi.svg";
-import Karunarathne from "../../assets/images/Committee/Karunarathne .svg";
-// import Konara from "../../assets/images/Committee/Konara.svg";
+import Karunarathne from "../../assets/images/Committee/HBSMKarunarathne.svg";
+import Konara from "../../assets/images/Committee/Konara.jpg";
 import Kulathunga from "../../assets/images/Committee/Kulathunga.svg";
 import LPHSLiyanamana from "../../assets/images/Committee/LPHSLiyanamana.svg";
 import MADPrasad from "../../assets/images/Committee/MADPrasad.svg";
 import MrsHMSNiroshani from "../../assets/images/Committee/MrsHMSNiroshani.svg";
-import MrTThirumayuran from "../../assets/images/Committee/MrTThirumayuran.svg";
-import Oshini from "../../assets/images/Committee/Oshini.svg";
-import Pasan from "../../assets/images/Committee/Pasan.svg";
-import Pathmasiri from "../../assets/images/Committee/Pathmasiri.svg";
-import Perera from "../../assets/images/Committee/Perera .svg";
-import Praveen from "../../assets/images/Committee/Praveen .svg";
-import ProfShiranthaHeenkenda from "../../assets/images/Committee/Prof Shirantha Heenkenda.svg";
-import ProfCharmalieNahallage from "../../assets/images/Committee/ProfCharmalieNahallage.svg";
-// import ProfPrasadSethunga from "../../assets/images/Committee/ProfPrasadSethunga.svg";
-import ProfSudathManjulaAmarasena from "../../assets/images/Committee/ProfSudathManjulaAmarasena.svg";
-import ProfSunethraThennkoon from "../../assets/images/Committee/ProfSunethraThennkoon.svg";
-import Rajapaksha from "../../assets/images/Committee/Rajapaksha .svg";
-import randi from "../../assets/images/Committee/Randi.svg";
-import Rathnayake from "../../assets/images/Committee/Rathnayake .svg";
-import RMSRRathnayake from "../../assets/images/Committee/RMSRRathnayake.svg";
-import Sandamini from "../../assets/images/Committee/Sandamini .svg";
-import Thalagala from "../../assets/images/Committee/Thalagala.svg";
-import Thashmil from "../../assets/images/Committee/Thashmil .svg";
-import Tirashi from "../../assets/images/Committee/Tirashi.svg";
-import Weerakoon from "../../assets/images/Committee/Weerakoon .svg";
-import Wijerathne from "../../assets/images/Committee/Wijerathne.svg";
-import Withana from "../../assets/images/Committee/Withana.svg";
+import MrTThirumayuran from "../../assets/images/Committee/MrTThirumayuran.png";
+import Oshini from "../../assets/images/Committee/Oshini.jpg";
+import Pasan from "../../assets/images/Committee/Pasan.jpg";
+import Pathmasiri from "../../assets/images/Committee/Pathmasiri.jpg";
+import Perera from "../../assets/images/Committee/Perera .jpg";
+import Praveen from "../../assets/images/Committee/Praveen .jpg";
+import ProfCharmalieNahallage from "../../assets/images/Committee/ProfCharmalieNahallage.png";
+import ProfPrasadSethunga from "../../assets/images/Committee/ProfPrasadSethunga.jpg";
+import ProfSudathManjulaAmarasena from "../../assets/images/Committee/ProfSudathManjulaAmarasena.png";
+import ProfShiranthaHeenkenda from "../../assets/images/Committee/ProfShiranthaHeenkenda.png";
+import ProfSunethraThennkoon from "../../assets/images/Committee/ProfSunethraThennkoon.png";
+import DrSanathMahawithanage from "../../assets/images/Committee/DrSanathMahawithanage.jpg";
+import Rajapaksha from "../../assets/images/Committee/Rajapaksha .jpg";
+import randi from "../../assets/images/Committee/Randi.jpg";
+import Rathnayake from "../../assets/images/Committee/Rathnayake .jpg";
+import RMSRRathnayake from "../../assets/images/Committee/RMSRRathnayake.jpg";
+import Sandamini from "../../assets/images/Committee/Sandamini .jpg";
+import Thalagala from "../../assets/images/Committee/Thalagala.jpg";
+import Thashmil from "../../assets/images/Committee/Thashmil .jpg";
+import Tirashi from "../../assets/images/Committee/Tirashi.jpg";
+import Weerakoon from "../../assets/images/Committee/Weerakoon .jpg";
+import Wijerathne from "../../assets/images/Committee/Wijerathne.jpg";
+import Withana from "../../assets/images/Committee/Withana.jpg";
 
 export default function Committee() {
     return (
@@ -93,7 +95,7 @@ export default function Committee() {
                     {/* Card 4 */}
                     <div className="col-lg-4 col-md-6 mb-4">
                         <div className="card shadow h-100 p-3 m-2">
-                            {/*<img src={Advisor4ImageSource} className="card-img-top" alt="Advisor 4"/>*/}
+                            <img src={DrSanathMahawithanage} className="card-img-top" alt="Advisor 4"/>
                             <div className="card-body">
                                 <h5 className="card-title">Dr Sanath Mahawithanage</h5>
                                 <p className="card-text">Senior Lecturer, Department of
@@ -107,7 +109,7 @@ export default function Committee() {
                     {/* Card 5 */}
                     <div className="col-lg-4 col-md-6 mb-4">
                         <div className="card shadow h-100 p-3 m-2">
-                            {/*<img src={DrRohanaUlluwishewa} className="card-img-top" alt="DrRohanaUlluwishewa"/>*/}
+                            <img src={DrRohanaUlluwishewa} className="card-img-top" alt="DrRohanaUlluwishewa"/>
                             <div className="card-body">
                                 <h5 className="card-title">Dr. Rohana Ulluwishewa</h5>
                                 <p className="card-text">Retired Professor/Independent
@@ -198,7 +200,7 @@ export default function Committee() {
                 <div className="row justify-content-center">
                     <div
                         className="col-lg-2 col-md-4 col-sm-6 m-3 shadow rounded-5 d-flex flex-column align-items-center text-center">
-                        {/*<img src={Chathumini} className="w-100 rounded-5 my-3" alt="Chandima"/>*/}
+                        <img src={Chathumini} className="w-100 rounded-5 my-3"/>
                         <h5>Ms. U.A.K. Chathumini</h5>
                         <p>Faculty of Management Studies and Commerce</p>
                     </div>

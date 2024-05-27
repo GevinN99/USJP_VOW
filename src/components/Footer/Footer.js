@@ -76,9 +76,9 @@ export default function Footer() {
                                 <p className="contact-info"><FaPhone/><i className="fas fa-phone me-3"></i> +94 71700 8793</p>
                             </div>
                             <div className="border rounded-3 p-3 mb-3 contact-box">
-                                <p className="contact-title">Mr. C. Ruwanthilaka</p>
+                                <p className="contact-title">Kavindi Chathumini</p>
                                 <p className="contact-info">University of Sri Jayewardenepura</p>
-                                <p className="contact-info"><FaPhone/><i className="fas fa-phone me-3"></i> +94 71 055 1698</p>
+                                <p className="contact-info"><FaPhone/><i className="fas fa-phone me-3"></i> +94 71 156 3601</p>
                             </div>
                         </Col>
                     </Row>

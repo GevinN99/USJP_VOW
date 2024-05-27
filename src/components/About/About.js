@@ -8,6 +8,8 @@ import Shape4 from "../../assets/images/shape3.png";
 import DrAnandSingh from "../../assets/images/DrAnandSingh.png";
 import ConferenceTracks from "../../assets/images/ConferenceTracks.png";
 import ImportantDates from "../../assets/images/ImportantDates.png";
+import DrRohanaUlluwishewa from "../../assets/images/Committee/DrRohanaUlluwishewa.png";
+import ProfIndralalDeSilva from "../../assets/images/Committee/ProfIndralalDeSilva.png";
 
 import './About.css';
 import Committee from "./Committee";
@@ -52,7 +54,7 @@ export default function About () {
                         <div className="row w-75 text-center">
                             The International Conference on Living Values Education (ICLVE) stands as a pioneering
                             initiative launched by the esteemed Career Guidance Unit of the University of Sri
-                            Jayewardenepura. Since its start in 2023, the conference has served as a beacon of
+                            Jayewardenepura. Since its start in 2024, the conference has served as a beacon of
                             enlightenment, drawing together a diverse array of educators, scholars, practitioners, and
                             researchers from across the globe. With a steadfast commitment to advancing the
                             understanding
@@ -236,6 +238,81 @@ export default function About () {
                     </div>
                 </div>
             </section>
+
+            {/*key note speaker*/}
+            <section id="key-note-speaker" className="my-5">
+                <div className="container text-center">
+                    <h2 className="mb-4 mt-4">Plenary Speaker</h2>
+                    <div className="row justify-content-center">
+                        <div className="col-md-6 mb-4">
+                            <div className="card shadow h-100 p-3 m-2">
+                                <img src={DrRohanaUlluwishewa} className="card-img-top w-50 mx-auto rounded-5 shadow"
+                                     alt="Dr. Rohana Ulluwishewa"/>
+                                <div className="card-body">
+                                    <h5 className="card-title">Dr. Rohana Ulluwishewa</h5>
+                                    <p className="card-text">
+                                        <strong>Name:</strong> Rohana Ulluwishewa<br/>
+                                        <strong>Designation:</strong> Retired Professor/Independent Researcher and
+                                        Writer<br/>
+                                        <strong>Address:</strong> No 20, Heatley Avenue, Hokowhitu, Palmerston North,
+                                        New Zealand<br/>
+                                        <strong>Contact No:</strong> +64225029352<br/>
+                                        <strong>Email:</strong> ulluwishewa@xtra.co.nz
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-6 mb-4">
+                            <div className="card shadow h-100 p-3 m-2">
+                                <img src={ProfIndralalDeSilva} className="card-img-top w-50 mx-auto rounded-5 shadow"
+                                     alt="Prof. Indralal De Silva"/>
+                                <div className="card-body">
+                                    <h5 className="card-title">Prof. Indralal De Silva</h5>
+                                    <p className="card-text">
+                                        Indralal De Silva obtained his Bachelor's Degree in Development Studies
+                                        (majoring in Statistics) from the University of Colombo in 1977, joined the
+                                        Department of Demography in 1979, and served four decades at the University of
+                                        Colombo. He received a Diploma in Population Studies in 1980 from the
+                                        International Institute of Population Sciences (Deemed University), Mumbai with
+                                        a scholarship from the UN-ESCAP. He obtained an MA and PhD from the Australian
+                                        National University in 1985 and 1990 respectively, with scholarships from the
+                                        same university.
+                                    </p>
+                                    <p className="card-text">
+                                        He was appointed as Associate Professor in Demography in 1995, and the Founder
+                                        Chair Professor of Demography in 2001, a position he held for 16 years at the
+                                        University of Colombo. In recognition of his administrative contribution to the
+                                        University, he was appointed to the post of Dean of the Faculty of Arts. He
+                                        functioned during 2009-2011 and acted as Vice Chancellor of the University of
+                                        Colombo on several occasions. He served as the Head of the Department of
+                                        Demography for approximately six years and also functioned as a Senior Research
+                                        Fellow in the National Centre for Advanced Studies in Humanities and Social
+                                        Sciences (NCAS) of UGC in 2014, 2015, and 2018.
+                                    </p>
+                                    <p className="card-text">
+                                        He served as the Executive Director and Associate Director at the Regional
+                                        Centre for Strategic Studies (RCSS), Colombo, in 2017 and 2019. Further, he has
+                                        served as a member of various Councils of Management including the University of
+                                        Colombo. He was offered several prestigious fellowships, including the Senior
+                                        Fulbright, Takemi, and Rockefeller Foundation and National University of
+                                        Singapore. With these recognitions, he has functioned as a Research Fellow at
+                                        the National University of Singapore in 2004, Harvard School of Public Health
+                                        during 1996-1998, and at the Australian National University during 1990-1991.
+                                    </p>
+                                    <p className="card-text">
+                                        He has published many books, monographs, and chapters and has presented over 100
+                                        research papers in many international and local conferences. He has also
+                                        published over 100 research articles in reputed local and international journals
+                                        and achieved by now over 1100 Google Scholar Citations, which boost the status
+                                        and recognition of the University of Colombo.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
 
             <section id="conference-venue">
                 <Container className="venue-text-center mt-5">

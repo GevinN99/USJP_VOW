@@ -39,7 +39,7 @@ export default function NavBar() {
                             </NavDropdown.Item>
                         </NavDropdown>
                         <Nav.Link as={RouterLink} to="/call-for-extended-abstracts" className="mx-3 custom-nav-link">
-                            Call For Extended Abstracts
+                            Call For Extended Abstracts / Case Studies
                         </Nav.Link>
                         <Nav.Link as={RouterLink} to="/PreConferenceWorkshops" className="mx-3 custom-nav-link">
                             Pre Conference Workshops
