@@ -142,7 +142,8 @@ export default function About () {
 
                         <div className="row date-box">
                             <div className="col">
-                                <p>30th of April 2024</p>
+                                <p className="text-decoration-line-through">30th of April 2024</p>
+                                <p >30th of April 2024</p>
                             </div>
                             <div className="col">
                                 <p>Deadline of the Submission of the extended Abstract</p>
@@ -151,7 +152,8 @@ export default function About () {
 
                         <div className="row date-box">
                             <div className="col">
-                                <p>30th May 2024</p>
+                                <p className="text-decoration-line-through">30th May 2024</p>
+                                <p>16th June 2024</p>
                             </div>
                             <div className="col">
                                 <p>The Review of extended abstracts</p>
@@ -160,7 +162,8 @@ export default function About () {
 
                         <div className="row date-box">
                             <div className="col">
-                                <p>15th of June 2024</p>
+                                <p className="text-decoration-line-through">15th June 2024</p>
+                                <p>25th June 2024</p>
                             </div>
                             <div className="col">
                                 <p>Submission of revised abstracts</p>
@@ -169,7 +172,8 @@ export default function About () {
 
                         <div className="row date-box">
                             <div className="col">
-                                <p>30th of June 2024</p>
+                                <p className="text-decoration-line-through">30th of June 2024</p>
+                                <p>5th July 2024</p>
                             </div>
                             <div className="col">
                                 <p>Notification of acceptance of extended abstracts</p>

@@ -31,8 +31,9 @@ button:hover {
     background-color: #b17500;
 }
 
-.ConferenceTracks-2{
+.ConferenceTracks-2 {
     position: absolute;
-    top: 50%;
+    top: 80%;
     left: -5%;
+    transform: translateY(-50%);
 }
