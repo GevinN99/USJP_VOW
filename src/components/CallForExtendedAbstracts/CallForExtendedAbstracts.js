@@ -38,7 +38,7 @@ export default function CallForExtendedAbstracts() {
                     </div>
                     <div className="col-md-6">
                         <h3 className=" text-center text-uppercase mt-5">EXTENDED ABSTRACT TEMPLATE</h3>
-                        <iframe src="https://drive.google.com/file/d/1acJJN5j8XaIMZkx9ysfYjqM_Xplx3Bl0/preview"
+                        <iframe src="https://drive.google.com/file/d/1fFfVbTKj12qYFhMnaB5k3BqsIO4XnbhY/preview"
                                 width="640" height="480"
                                 height="480" allow="autoplay"></iframe>
                     </div>
