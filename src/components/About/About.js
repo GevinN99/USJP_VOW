@@ -143,7 +143,7 @@ export default function About () {
                         <div className="row date-box">
                             <div className="col">
                                 <p className="text-decoration-line-through">30th of April 2024</p>
-                                <p >30th of April 2024</p>
+                                <p >30th May 2024</p>
                             </div>
                             <div className="col">
                                 <p>Deadline of the Submission of the extended Abstract</p>
@@ -207,7 +207,7 @@ export default function About () {
                     <h2 className=" mb-4 mt-4">Keynote Speaker</h2>
                     <div className="row justify-content-center">
                         <div
-                            className="col-lg-4 col-md-6 mb-4 col-sm-6 m-3 shadow rounded-5 d-flex flex-column align-items-center text-center">
+                            className="col-lg-4 col-md-6 mb-4 col-sm-6 m-3 border border-dark border-2 d-flex flex-column align-items-center text-center">
                             <img src={DrAnandSingh} className="w-100 rounded-5 my-3" alt="Keynote Speaker"/>
                             <h5>Dr. Anand Singh</h5>
                         </div>
@@ -250,7 +250,7 @@ export default function About () {
                     <div className="row justify-content-center">
                         <div className="col-md-6 mb-4">
                             <div className="card shadow h-100 p-3 m-2">
-                                <img src={DrRohanaUlluwishewa} className="card-img-top w-50 mx-auto rounded-5 shadow"
+                                <img src={DrRohanaUlluwishewa} className="card-img-top w-50 mx-auto border border-dark border-2"
                                      alt="Dr. Rohana Ulluwishewa"/>
                                 <div className="card-body">
                                     <h5 className="card-title">Dr. Rohana Ulluwishewa</h5>
@@ -268,7 +268,7 @@ export default function About () {
                         </div>
                         <div className="col-md-6 mb-4">
                             <div className="card shadow h-100 p-3 m-2">
-                                <img src={ProfIndralalDeSilva} className="card-img-top w-50 mx-auto rounded-5 shadow"
+                                <img src={ProfIndralalDeSilva} className="card-img-top w-50 mx-auto border border-dark border-2"
                                      alt="Prof. Indralal De Silva"/>
                                 <div className="card-body">
                                     <h5 className="card-title">Prof. Indralal De Silva</h5>

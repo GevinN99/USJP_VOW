@@ -59,9 +59,39 @@ export default function PreConferenceWorkshops() {
                 </Row>
                 <Row className="mb-5">
                     <Col>
+                        <h2 className="mt-5 mb-3 text-decoration-underline">Workshop 1</h2>
+                        <p className="mt-3 text-decoration-underline">
+                            Unlock Success Through Living Values Education!
+                        </p>
+                        <div className="video-wrapper">
+                            <ReactPlayer
+                                url="https://youtu.be/FLwrTEsMGzc"
+                                width="auto"
+                                height="600px"
+                                controls={true}
+                                config={{
+                                    youtube: {
+                                        playerVars: { showinfo: 1 }
+                                    }
+                                }}
+                            />
+                        </div>
+                    </Col>
+                </Row>
+                <Row className="mb-5">
+                    <Col>
+                        <h2 className="mt-5 mb-3 text-decoration-underline">Workshop 2</h2>
+                        <div>
+                            <iframe src="https://drive.google.com/file/d/1k2iwvORa7QV1O2MrOhJKge1vVpQu_LJV/preview"
+                                    width="100%" height="600" allow="autoplay"></iframe>
+                        </div>
+                    </Col>
+                </Row>
+                <Row className="mb-5">
+                    <Col>
                         <h2 className="mt-5 mb-3 text-decoration-underline">Workshop 3</h2>
                         <p className="mt-3 text-decoration-underline">
-                            Importance of living values for professional development
+                        Importance of living values for professional development
                         </p>
                         <div className="video-wrapper">
                             <ReactPlayer
