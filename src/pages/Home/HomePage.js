@@ -1,4 +1,4 @@
-import {useCallback, useEffect, useState} from "react";
+import React, {useCallback, useEffect, useState} from "react";
 import Particles from "react-tsparticles";
 import {loadSlim} from "tsparticles-slim";
 import NavBar from "../../components/NavBar/NavBar";
@@ -7,6 +7,7 @@ import CountdownTimer from '../../components/CountdownTimer/CountdownTimer';
 import About from "../../components/About/About";
 import LOGO from "../../assets/images/about_logo.svg";
 import abtBtm from "../../assets/images/NavBtm.svg";
+import FlyerContent from "./FlyerContent";
 
 export default function HomePage() {
     const [showFirstText, setShowFirstText] = useState(true);
@@ -106,7 +107,7 @@ export default function HomePage() {
                     ) : (
                         <img src={LOGO} alt="ICLVE 2024" className="fadeInOut" style={{width: 400}}/>
                     )}
-                    <CountdownTimer date={new Date('2024-08-26T09:00:00')}/>
+                    <CountdownTimer date={new Date('2024-10-15T09:00:00')}/>
                 </div>
                 <div className="position-absolute w-100 overflow-hidden mt-5">
                     <img src={abtBtm} className="w-100 nav-h-img"/>

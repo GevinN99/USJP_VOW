@@ -152,8 +152,7 @@ export default function About () {
 
                         <div className="row date-box">
                             <div className="col">
-                                <p className="text-decoration-line-through">30th May 2024</p>
-                                <p>16th June 2024</p>
+                                <p>16th August 2024</p>
                             </div>
                             <div className="col">
                                 <p>The Review of extended abstracts</p>
@@ -162,8 +161,7 @@ export default function About () {
 
                         <div className="row date-box">
                             <div className="col">
-                                <p className="text-decoration-line-through">15th June 2024</p>
-                                <p>25th June 2024</p>
+                                <p>26th August 2024</p>
                             </div>
                             <div className="col">
                                 <p>Submission of revised abstracts</p>
@@ -172,8 +170,7 @@ export default function About () {
 
                         <div className="row date-box">
                             <div className="col">
-                                <p className="text-decoration-line-through">30th of June 2024</p>
-                                <p>5th July 2024</p>
+                                <p>2nd of September 2024</p>
                             </div>
                             <div className="col">
                                 <p>Notification of acceptance of extended abstracts</p>
@@ -182,16 +179,17 @@ export default function About () {
 
                         <div className="row date-box">
                             <div className="col">
-                                <p>15th of July 2024</p>
+                                <p>06th September 2024 - Early bird </p>
+                                <p>15th September 2024 - Late bird </p>
                             </div>
                             <div className="col">
                                 <p>Registration for Presentation and Participation</p>
                             </div>
                         </div>
 
-                        <div className="row date-box">
+                        <div className="row date-box" style={{backgroundColor:'#e6d39d'}}>
                             <div className="col">
-                                <p>21th August - 23rd August 2024</p>
+                                <p>15th October - 16th October 2024</p>
                             </div>
                             <div className="col">
                                 <p>Conference dates</p>
@@ -322,27 +320,12 @@ export default function About () {
                 <Container className="venue-text-center mt-5">
                     <h2 className="mb-5">Conference Venue</h2>
                     <Row className="h-100">
-                        <Col xs={12} md={4}>
-                            <Card className="mb-4 h-100 d-flex flex-column">
-                                <Card.Body className="flex-grow-1">
-                                    <Card.Title><h2 className="y-text">Free Conference</h2></Card.Title>
-                                    <Card.Subtitle className="mb-2 text-muted"><h3
-                                        className="lead">21<sup>st</sup> August 2024</h3></Card.Subtitle>
-                                    <Card.Text><p className="text-secondary">Sumangala building - University of Sri
-                                        Jayewardenepura</p></Card.Text>
-                                </Card.Body>
-                                <div className="embed-responsive embed-responsive-16by9">
-                                    <iframe className="embed-responsive-item"
-                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1231.8732751104858!2d79.90536726797065!3d6.854148832145871!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae25a88fda7c443%3A0xd2c9266839c8deac!2sSumangala%20Building!5e0!3m2!1sen!2slk!4v1710740469672!5m2!1sen!2slk"></iframe>
-                                </div>
-                            </Card>
-                        </Col>
-                        <Col xs={12} md={4}>
+                        <Col xs={12} md={6}>
                             <Card className="mb-4 h-100 d-flex flex-column">
                                 <Card.Body className="flex-grow-1">
                                     <Card.Title><h2 className="y-text">Main Conference</h2></Card.Title>
                                     <Card.Subtitle className="mb-2 text-muted"><h3
-                                        className="lead">22<sup>nd</sup> August 2024</h3></Card.Subtitle>
+                                        className="lead">15<sup>th</sup> October 2024</h3></Card.Subtitle>
                                     <Card.Text><p className="text-secondary">Galle Face Hotel, Colombo, Sri Lanka</p>
                                     </Card.Text>
                                 </Card.Body>
@@ -352,12 +335,12 @@ export default function About () {
                                 </div>
                             </Card>
                         </Col>
-                        <Col xs={12} md={4}>
+                        <Col xs={12} md={6}>
                             <Card className="mb-4 h-100 d-flex flex-column">
                                 <Card.Body className="flex-grow-1">
                                     <Card.Title><h2 className="y-text">Post Conference</h2></Card.Title>
                                     <Card.Subtitle className="mb-2 text-muted"><h3
-                                        className="lead">23<sup>rd</sup> August 2024</h3></Card.Subtitle>
+                                        className="lead">16<sup>th</sup> October 2024</h3></Card.Subtitle>
                                     <Card.Text><p className="text-secondary">Mithrigala Nissarana Vanaya, Mitirigala,
                                         Sri Lanka</p></Card.Text>
                                 </Card.Body>

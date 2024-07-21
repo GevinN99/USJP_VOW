@@ -86,19 +86,19 @@ export default function Committee() {
                         </div>
                     </div>
                     {/* Card 4 */}
-                    <div className="col-lg-4 col-md-6 mb-4">
-                        <div className="card shadow h-100 p-3 m-2">
-                            <img src={DrSanathMahawithanage} className="card-img-top" alt="Advisor 4"/>
-                            <div className="card-body">
-                                <h5 className="card-title">Dr Sanath Mahawithanage</h5>
-                                <p className="card-text">Senior Lecturer, Department of
-                                    Biochemistry, Faculty of Medical Sciences , Director of
-                                    Center for Mindfulness Research, University of Sri
-                                    Jayewardenepura</p>
-                                <p className="card-text">sanath.mahawithanage@gmail.com</p>
-                            </div>
-                        </div>
-                    </div>
+                    {/*<div className="col-lg-4 col-md-6 mb-4">*/}
+                    {/*    <div className="card shadow h-100 p-3 m-2">*/}
+                    {/*        <img src={DrSanathMahawithanage} className="card-img-top" alt="Advisor 4"/>*/}
+                    {/*        <div className="card-body">*/}
+                    {/*            <h5 className="card-title">Dr Sanath Mahawithanage</h5>*/}
+                    {/*            <p className="card-text">Senior Lecturer, Department of*/}
+                    {/*                Biochemistry, Faculty of Medical Sciences , Director of*/}
+                    {/*                Center for Mindfulness Research, University of Sri*/}
+                    {/*                Jayewardenepura</p>*/}
+                    {/*            <p className="card-text">sanath.mahawithanage@gmail.com</p>*/}
+                    {/*        </div>*/}
+                    {/*    </div>*/}
+                    {/*</div>*/}
                     {/* Card 5 */}
                     <div className="col-lg-4 col-md-6 mb-4">
                         <div className="card shadow h-100 p-3 m-2">
@@ -189,13 +189,13 @@ export default function Committee() {
                 <div className="row justify-content-center">
                     <div
                         className="col-lg-2 col-md-4 col-sm-6 m-3 shadow rounded-5 d-flex flex-column align-items-center text-center">
-                        <img src={chandima} className="w-100 rounded-5 my-3" alt="Chandima"/>
+                        <img src={chandima} className="w-100 rounded-5 my-3" alt="IMG"/>
                         <h5>Mr. C. Ruwanthilaka</h5>
                         <p>Faculty of Applied Sciences</p>
                     </div>
                     <div
                         className="col-lg-2 col-md-4 col-sm-6 m-3 shadow rounded-5 d-flex flex-column align-items-center text-center">
-                        <img src={randi} className="w-100 rounded-5 my-3" alt="Chandima"/>
+                        <img src={randi} className="w-100 rounded-5 my-3" alt="IMG"/>
                         <h5>Ms. R. Wathsala</h5>
                         <p>Faculty of Applied Sciences</p>
                     </div>
@@ -219,7 +219,7 @@ export default function Committee() {
                 <div className="row justify-content-center">
                     <div
                         className="col-lg-2 col-md-4 col-sm-6 m-3 shadow rounded-5 d-flex flex-column align-items-center text-center">
-                        <img src={Thashmil} className="w-100 rounded-5 my-3" alt="Chandima"/>
+                        <img src={Thashmil} className="w-100 rounded-5 my-3" alt="IMG"/>
                         <h5>Mr. M. Thashmil </h5>
                         <p>Faculty of Applied Science</p>
                     </div>
@@ -231,31 +231,31 @@ export default function Committee() {
                 <div className="row justify-content-around">
                     <div
                         className="col-lg-2 col-md-4 col-sm-6 m-3 shadow rounded-5 d-flex flex-column align-items-center text-center">
-                        <img src={Pathmasiri} className="w-100 rounded-5 my-3" alt="Chandima"/>
+                        <img src={Pathmasiri} className="w-100 rounded-5 my-3" alt="IMG"/>
                         <h5>Mr. D.N.K. Pathmasiri</h5>
                         <p>Faculty of Technology</p>
                     </div>
                     <div
                         className="col-lg-2 col-md-4 col-sm-6 m-3 shadow rounded-5 d-flex flex-column align-items-center text-center">
-                        <img src={Gunasekara} className="w-100 rounded-5 my-3" alt="Chandima"/>
+                        <img src={Gunasekara} className="w-100 rounded-5 my-3" alt="IMG"/>
                         <h5>Ms. K.K. Gunasekara</h5>
                         <p>Faculty of Technology</p>
                     </div>
                     <div
                         className="col-lg-2 col-md-4 col-sm-6 m-3 shadow rounded-5 d-flex flex-column align-items-center text-center">
-                        <img src={Gevin} className="w-100 rounded-5 my-3" alt="Chandima"/>
+                        <img src={Gevin} className="w-100 rounded-5 my-3" alt="IMG"/>
                         <h5>Mr. G. Nanayakkara</h5>
                         <p>Faculty of Technology</p>
                     </div>
                     <div
                         className="col-lg-2 col-md-4 col-sm-6 m-3 shadow rounded-5 d-flex flex-column align-items-center text-center">
-                        <img src={Sandamini} className="w-100 rounded-5 my-3" alt="Chandima"/>
+                        <img src={Sandamini} className="w-100 rounded-5 my-3" alt="IMG"/>
                         <h5>Ms. K.K.I. Sandamini</h5>
                         <p>Faculty of Technology</p>
                     </div>
                     <div
                         className="col-lg-2 col-md-4 col-sm-6 m-3 shadow rounded-5 d-flex flex-column align-items-center text-center">
-                        <img src={Kulathunga} className="w-100 rounded-5 my-3" alt="Chandima"/>
+                        <img src={Kulathunga} className="w-100 rounded-5 my-3" alt="IMG"/>
                         <h5>Mr. H.V.J. Kulathunga</h5>
                         <p>Faculty of Applied Sciences</p>
                     </div>
@@ -267,49 +267,49 @@ export default function Committee() {
                 <div className="row justify-content-center">
                     <div
                         className="col-lg-2 col-md-4 col-sm-6 m-3 shadow rounded-5 d-flex flex-column align-items-center text-center">
-                        <img src={Tirashi} className="w-100 rounded-5 my-3" alt="Chandima"/>
+                        <img src={Tirashi} className="w-100 rounded-5 my-3" alt="IMG"/>
                         <h5>Ms. R.P.D. Tirashi</h5>
                         <p>Faculty of Management Studies and commerce</p>
                     </div>
                     <div
                         className="col-lg-2 col-md-4 col-sm-6 m-3 shadow rounded-5 d-flex flex-column align-items-center text-center">
-                        <img src={Perera} className="w-100 rounded-5 my-3" alt="Chandima"/>
+                        <img src={Perera} className="w-100 rounded-5 my-3" alt="IMG"/>
                         <h5>R.M.S.R. Rathnayake</h5>
                         <p>Faculty of Management Studies and commerce</p>
                     </div>
                     <div
                         className="col-lg-2 col-md-4 col-sm-6 m-3 shadow rounded-5 d-flex flex-column align-items-center text-center">
-                        <img src={GNRathnayake} className="w-100 rounded-5 my-3" alt="Chandima"/>
+                        <img src={GNRathnayake} className="w-100 rounded-5 my-3" alt="IMG"/>
                         <h5>Ms.G.N. Rathnayake</h5>
                         <p>Faculty of Technology</p>
                     </div>
                     <div
                         className="col-lg-2 col-md-4 col-sm-6 m-3 shadow rounded-5 d-flex flex-column align-items-center text-center">
-                        <img src={GKAJayawardhana} className="w-100 rounded-5 my-3" alt="Chandima"/>
+                        <img src={GKAJayawardhana} className="w-100 rounded-5 my-3" alt="IMG"/>
                         <h5>G.K.A. Jayawardhana</h5>
                         <p>Faculty of Management Studies and commerce</p>
                     </div>
                     <div
                         className="col-lg-2 col-md-4 col-sm-6 m-3 shadow rounded-5 d-flex flex-column align-items-center text-center">
-                        <img src={Darshitha} className="w-100 rounded-5 my-3" alt="Chandima"/>
+                        <img src={Darshitha} className="w-100 rounded-5 my-3" alt="IMG"/>
                         <h5>Mr. D. Dilshan</h5>
                         <p>Faculty of Applied Sciences</p>
                     </div>
                     <div
                         className="col-lg-2 col-md-4 col-sm-6 m-3 shadow rounded-5 d-flex flex-column align-items-center text-center">
-                        <img src={Weerakoon} className="w-100 rounded-5 my-3" alt="Chandima"/>
+                        <img src={Weerakoon} className="w-100 rounded-5 my-3" alt="IMG"/>
                         <h5>J.W.A.M. Weerakoon</h5>
                         <p>Faculty of Technology</p>
                     </div>
                     <div
                         className="col-lg-2 col-md-4 col-sm-6 m-3 shadow rounded-5 d-flex flex-column align-items-center text-center">
-                        <img src={Chamodya} className="w-100 rounded-5 my-3" alt="Chandima"/>
+                        <img src={Chamodya} className="w-100 rounded-5 my-3" alt="IMG"/>
                         <h5>M.A.S. Chamodya</h5>
                         <p>Faculty of Management Studies and Commerce</p>
                     </div>
                     <div
                         className="col-lg-2 col-md-4 col-sm-6 m-3 shadow rounded-5 d-flex flex-column align-items-center text-center">
-                        <img src={Jayawardhana} className="w-100 rounded-5 my-3" alt="Chandima"/>
+                        <img src={Jayawardhana} className="w-100 rounded-5 my-3" alt="IMG"/>
                         <h5>N.S.A. Jayawardhana</h5>
                         <p>Faculty of Technology</p>
                     </div>
@@ -321,7 +321,7 @@ export default function Committee() {
                 <div className="row justify-content-center">
                     <div
                         className="col-lg-2 col-md-4 col-sm-6 m-3 shadow rounded-5 d-flex flex-column align-items-center text-center">
-                        <img src={Pasan} className="w-100 rounded-5 my-3" alt="Chandima"/>
+                        <img src={Pasan} className="w-100 rounded-5 my-3" alt="IMG"/>
                         <h5>Mr. P. Katugampala</h5>
                         <p>Faculty of Applied Sciences</p>
                     </div>
@@ -333,25 +333,25 @@ export default function Committee() {
                     </div>
                     <div
                         className="col-lg-2 col-md-4 col-sm-6 m-3 shadow rounded-5 d-flex flex-column align-items-center text-center">
-                        <img src={Durga} className="w-100 rounded-5 my-3" alt="Chandima"/>
+                        <img src={Durga} className="w-100 rounded-5 my-3" alt="IMG"/>
                         <h5>Ms. D. Kavindi</h5>
                         <p>Faculty of Management Studies and Commerce</p>
                     </div>
                     <div
                         className="col-lg-2 col-md-4 col-sm-6 m-3 shadow rounded-5 d-flex flex-column align-items-center text-center">
-                        <img src={Dinelka} className="w-100 rounded-5 my-3" alt="Chandima"/>
+                        <img src={Dinelka} className="w-100 rounded-5 my-3" alt="IMG"/>
                         <h5>H.R.G.H. Dinelka</h5>
                         <p> Faculty of Humanities and Social Sciences</p>
                     </div>
                     <div
                         className="col-lg-2 col-md-4 col-sm-6 m-3 shadow rounded-5 d-flex flex-column align-items-center text-center">
-                        <img src={Charukshi} className="w-100 rounded-5 my-3" alt="Chandima"/>
+                        <img src={Charukshi} className="w-100 rounded-5 my-3" alt="IMG"/>
                         <h5>K.A.D.D. Charukshi </h5>
                         <p> Faculty of Management Studies and commerce</p>
                     </div>
                     <div
                         className="col-lg-2 col-md-4 col-sm-6 m-3 shadow rounded-5 d-flex flex-column align-items-center text-center">
-                        <img src={RMDSSRajapaksha} className="w-100 rounded-5 my-3" alt="Chandima"/>
+                        <img src={RMDSSRajapaksha} className="w-100 rounded-5 my-3" alt="IMG"/>
                         <h5>R.M.D.S.S. Rajapaksha</h5>
                         <p>Faculty of Applied Sciences</p>
                     </div>
@@ -363,37 +363,37 @@ export default function Committee() {
                 <div className="row justify-content-center">
                     <div
                         className="col-lg-2 col-md-4 col-sm-6 m-3 shadow rounded-5 d-flex flex-column align-items-center text-center">
-                        <img src={HMVSIndrachapa} className="w-100 rounded-5 my-3" alt="Chandima"/>
+                        <img src={HMVSIndrachapa} className="w-100 rounded-5 my-3" alt="IMG"/>
                         <h5>Ms. H.M.V.S. Indrachapa</h5>
                         <p>Faculty of Management Studies and commerce</p>
                     </div>
                     <div
                         className="col-lg-2 col-md-4 col-sm-6 m-3 shadow rounded-5 d-flex flex-column align-items-center text-center">
-                        <img src={Karunarathne} className="w-100 rounded-5 my-3" alt="Chandima"/>
+                        <img src={Karunarathne} className="w-100 rounded-5 my-3" alt="IMG"/>
                         <h5>K.M.I.D. Karunarathne</h5>
                         <p>Faculty of Urban and Aquatic Bioresources</p>
                     </div>
                     <div
                         className="col-lg-2 col-md-4 col-sm-6 m-3 shadow rounded-5 d-flex flex-column align-items-center text-center">
-                        <img src={Fernando} className="w-100 rounded-5 my-3" alt="Chandima"/>
+                        <img src={Fernando} className="w-100 rounded-5 my-3" alt="IMG"/>
                         <h5>Mr. P.K. Fernando</h5>
                         <p>Faculty of Management Studies and Commerce</p>
                     </div>
                     <div
                         className="col-lg-2 col-md-4 col-sm-6 m-3 shadow rounded-5 d-flex flex-column align-items-center text-center">
-                        <img src={LPHSLiyanamana} className="w-100 rounded-5 my-3" alt="Chandima"/>
+                        <img src={LPHSLiyanamana} className="w-100 rounded-5 my-3" alt="IMG"/>
                         <h5>Ms. L.P.H.S. Liyanamana</h5>
                         <p>Faculty of Technology</p>
                     </div>
                     <div
                         className="col-lg-2 col-md-4 col-sm-6 m-3 shadow rounded-5 d-flex flex-column align-items-center text-center">
-                        <img src={HBSMKarunarathne} className="w-100 rounded-5 my-3" alt="Chandima"/>
+                        <img src={HBSMKarunarathne} className="w-100 rounded-5 my-3" alt="IMG"/>
                         <h5>H.B.S.M. Karunarathne</h5>
                         <p>Faculty of Applied Sciences</p>
                     </div>
                     <div
                         className="col-lg-2 col-md-4 col-sm-6 m-3 shadow rounded-5 d-flex flex-column align-items-center text-center">
-                        <img src={HGLThenura} className="w-100 rounded-5 my-3" alt="Chandima"/>
+                        <img src={HGLThenura} className="w-100 rounded-5 my-3" alt="IMG"/>
                         <h5>Mr. H.G.L. Thenura</h5>
                         <p>Faculty of Applied Sciences</p>
                     </div>

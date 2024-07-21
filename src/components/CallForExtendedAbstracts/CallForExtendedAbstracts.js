@@ -45,7 +45,7 @@ export default function CallForExtendedAbstracts() {
                                 width="100%" height="600" allow="autoplay"></iframe>
                     </div>
                     <div className="col-md-6">
-                        <iframe src="https://drive.google.com/file/d/1Slt4ruYPkNunt8OnV167q31HwkLGhAj_/preview"
+                        <iframe src="https://drive.google.com/file/d/1uThbWVoPeCZH8dZUMqEOHMSxfdCflmsh/preview"
                                 width="100%" height="600" allow="autoplay"></iframe>
                     </div>
                 </div>
